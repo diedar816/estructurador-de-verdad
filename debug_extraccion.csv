@@ -1,17 +1,17 @@
-﻿Etiqueta,Valor
-Caso Noticia,110016000050202448385
-Ley de Aplicabilidad,Ley 906
-Procedimiento Abreviado?,SI
-Priorizado,NO
-Tipo Noticia,DENUNCIA
-Delito,HURTO. ART. 239 C.P.
-Grado Delito,NINGUNO
-Caracterización,HURTO A ESTABLECIMIENTOS
-Modalidad,ATRACO
-Modo,ARMA DE FUEGO
-Fecha de los Hechos,07/06/2024 00:36:00
-Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
-Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
+﻿CasoIndex,Etiqueta,Valor
+1,Caso Noticia,110016000050202448385
+1,Ley de Aplicabilidad,Ley 906
+1,Procedimiento Abreviado?,SI
+1,Priorizado,NO
+1,Tipo Noticia,DENUNCIA
+1,Delito,HURTO. ART. 239 C.P.
+1,Grado Delito,NINGUNO
+1,Caracterización,HURTO A ESTABLECIMIENTOS
+1,Modalidad,ATRACO
+1,Modo,ARMA DE FUEGO
+1,Fecha de los Hechos,07/06/2024 00:36:00
+1,Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
+1,Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
 FormalizaciónAtraco a mano armadaTienda D1: Ciudad BernaCódigo: 6A080227Dirección: CRA 
 14 # 6 sur -34Localidad: Antonio NariñoFecha: 06 -06-2024Hora: 19:36 ¿ 19:37Quien reporta: 
 Supervis ora punto de ventaNombre: Allison Carvajal Estrada CC: 1.013.676.828 de BogotáN° 
@@ -28,31 +28,1714 @@ rumbo desconocido por la avenida Caracas sentido norte - surSe encontraba en la 
 36B sur -49Barrio: La Vic toriaCel: 3247856370Afectaciones:Dinero:POS 3: $1'073.000Total: 
 $1'073.000Personal y cliente ilesosLlega cuadrante Berna al mando del Intendente Orlando 
 Sánchez Cel: 3017533464No llega Unidad Investigativa"
-Municipio Fiscal,"1 - BOGOTÁ, D.C."
-Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
-Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
-Despacho,31 - FISCALIA 31
-Estado de la asignación,VIGENTE
-Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
-Estado del caso,ACTIVO
-Etapa del caso,INDAGACIÓN
-Calidad_1,DENUNCIANTE
-Documento_1,CEDULA DE CIUDADANIA
-Número documento_1,1000121985
-Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
-Departamento de notificación_1,
-Municipio de notificación_1,
-Teléfono de notificación_1,
-Teléfono móvil_1,3124623005
-Correo Electrónico_1,jorge.morales@d1.com.co
-Teléfono Oficina_1,
-Calidad_2,VICTIMA
-Documento_2,CEDULA DE CIUDADANIA
-Número documento_2,1000121985
-Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
-Departamento de notificación_2,
-Municipio de notificación_2,
-Teléfono de notificación_2,
-Teléfono móvil_2,3124623005
-Correo Electrónico_2,jorge.morales@d1.com.co
-Teléfono Oficina_2,
+1,Municipio Fiscal,"1 - BOGOTÁ, D.C."
+1,Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
+1,Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
+1,Despacho,31 - FISCALIA 31
+1,Estado de la asignación,VIGENTE
+1,Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
+1,Estado del caso,ACTIVO
+1,Etapa del caso,INDAGACIÓN
+1,Calidad_1,DENUNCIANTE
+1,Documento_1,CEDULA DE CIUDADANIA
+1,Número documento_1,1000121985
+1,Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
+1,Departamento de notificación_1,
+1,Municipio de notificación_1,
+1,Teléfono de notificación_1,
+1,Teléfono móvil_1,3124623005
+1,Correo Electrónico_1,jorge.morales@d1.com.co
+1,Teléfono Oficina_1,
+1,Calidad_2,VICTIMA
+1,Documento_2,CEDULA DE CIUDADANIA
+1,Número documento_2,1000121985
+1,Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
+1,Departamento de notificación_2,
+1,Municipio de notificación_2,
+1,Teléfono de notificación_2,
+1,Teléfono móvil_2,3124623005
+1,Correo Electrónico_2,jorge.morales@d1.com.co
+1,Teléfono Oficina_2,
+1,Calidad_3,
+1,Documento_3,
+1,Número documento_3,
+1,Nombre_3,
+1,Departamento de notificación_3,
+1,Municipio de notificación_3,
+1,Teléfono de notificación_3,
+1,Teléfono móvil_3,
+1,Correo Electrónico_3,
+1,Teléfono Oficina_3,
+1,Calidad_4,
+1,Documento_4,
+1,Número documento_4,
+1,Nombre_4,
+1,Departamento de notificación_4,
+1,Municipio de notificación_4,
+1,Teléfono de notificación_4,
+1,Teléfono móvil_4,
+1,Correo Electrónico_4,
+1,Teléfono Oficina_4,
+1,Calidad_5,
+1,Documento_5,
+1,Número documento_5,
+1,Nombre_5,
+1,Departamento de notificación_5,
+1,Municipio de notificación_5,
+1,Teléfono de notificación_5,
+1,Teléfono móvil_5,
+1,Correo Electrónico_5,
+1,Teléfono Oficina_5,
+2,Caso Noticia,110016000050202448385
+2,Ley de Aplicabilidad,Ley 906
+2,Procedimiento Abreviado?,SI
+2,Priorizado,NO
+2,Tipo Noticia,DENUNCIA
+2,Delito,HURTO. ART. 239 C.P.
+2,Grado Delito,NINGUNO
+2,Caracterización,HURTO A ESTABLECIMIENTOS
+2,Modalidad,ATRACO
+2,Modo,ARMA DE FUEGO
+2,Fecha de los Hechos,07/06/2024 00:36:00
+2,Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
+2,Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
+FormalizaciónAtraco a mano armadaTienda D1: Ciudad BernaCódigo: 6A080227Dirección: CRA 
+14 # 6 sur -34Localidad: Antonio NariñoFecha: 06 -06-2024Hora: 19:36 ¿ 19:37Quien reporta: 
+Supervis ora punto de ventaNombre: Allison Carvajal Estrada CC: 1.013.676.828 de BogotáN° 
+Cel: 3142421604Dirección residencia: CRA 12 A # 2 -34 surBarrio: Sevilla Descripción del sujeto: 
+1.70 Mts aproximadamente de estatura tez blanca, Vestía Jean de color azul, cha queta 
+impermeable de color azul oscuro, tenis de color gris, gorra azul oscuro con logo de YANKIES 
+(portaba arma de fuego tipo pistola). Delincuente plenamente identificado como: Diego Fernando 
+Rativa CC: 1.001.047.057.Hechos:Ingresa el sujeto anteriorment e descrito al piso de ventas, se 
+dirige directamente a la POS 3 aprovechando que la Asistente le va a entregar vueltas a una 
+cliente, la intimida con un arma de fuego tipo pistola, la obliga abrir la tapa de la POS, logra 
+extraer el dinero producto de las ventas, sale de la tienda caminando y emprende la huida con 
+rumbo desconocido por la avenida Caracas sentido norte - surSe encontraba en la POS 
+3Nombre: Angie Tatiana Jimenez GomezC.C: 1.000.121.985 de BogotáDirección: CRA 5 este # 
+36B sur -49Barrio: La Vic toriaCel: 3247856370Afectaciones:Dinero:POS 3: $1'073.000Total: 
+$1'073.000Personal y cliente ilesosLlega cuadrante Berna al mando del Intendente Orlando 
+Sánchez Cel: 3017533464No llega Unidad Investigativa"
+2,Municipio Fiscal,"1 - BOGOTÁ, D.C."
+2,Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
+2,Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
+2,Despacho,31 - FISCALIA 31
+2,Estado de la asignación,VIGENTE
+2,Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
+2,Estado del caso,ACTIVO
+2,Etapa del caso,INDAGACIÓN
+2,Calidad_1,DENUNCIANTE
+2,Documento_1,CEDULA DE CIUDADANIA
+2,Número documento_1,1000121985
+2,Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
+2,Departamento de notificación_1,
+2,Municipio de notificación_1,
+2,Teléfono de notificación_1,
+2,Teléfono móvil_1,3124623005
+2,Correo Electrónico_1,jorge.morales@d1.com.co
+2,Teléfono Oficina_1,
+2,Calidad_2,VICTIMA
+2,Documento_2,CEDULA DE CIUDADANIA
+2,Número documento_2,1000121985
+2,Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
+2,Departamento de notificación_2,
+2,Municipio de notificación_2,
+2,Teléfono de notificación_2,
+2,Teléfono móvil_2,3124623005
+2,Correo Electrónico_2,jorge.morales@d1.com.co
+2,Teléfono Oficina_2,
+2,Calidad_3,
+2,Documento_3,
+2,Número documento_3,
+2,Nombre_3,
+2,Departamento de notificación_3,
+2,Municipio de notificación_3,
+2,Teléfono de notificación_3,
+2,Teléfono móvil_3,
+2,Correo Electrónico_3,
+2,Teléfono Oficina_3,
+2,Calidad_4,
+2,Documento_4,
+2,Número documento_4,
+2,Nombre_4,
+2,Departamento de notificación_4,
+2,Municipio de notificación_4,
+2,Teléfono de notificación_4,
+2,Teléfono móvil_4,
+2,Correo Electrónico_4,
+2,Teléfono Oficina_4,
+2,Calidad_5,
+2,Documento_5,
+2,Número documento_5,
+2,Nombre_5,
+2,Departamento de notificación_5,
+2,Municipio de notificación_5,
+2,Teléfono de notificación_5,
+2,Teléfono móvil_5,
+2,Correo Electrónico_5,
+2,Teléfono Oficina_5,
+3,Caso Noticia,110016000050202448385
+3,Ley de Aplicabilidad,Ley 906
+3,Procedimiento Abreviado?,SI
+3,Priorizado,NO
+3,Tipo Noticia,DENUNCIA
+3,Delito,HURTO. ART. 239 C.P.
+3,Grado Delito,NINGUNO
+3,Caracterización,HURTO A ESTABLECIMIENTOS
+3,Modalidad,ATRACO
+3,Modo,ARMA DE FUEGO
+3,Fecha de los Hechos,07/06/2024 00:36:00
+3,Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
+3,Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
+FormalizaciónAtraco a mano armadaTienda D1: Ciudad BernaCódigo: 6A080227Dirección: CRA 
+14 # 6 sur -34Localidad: Antonio NariñoFecha: 06 -06-2024Hora: 19:36 ¿ 19:37Quien reporta: 
+Supervis ora punto de ventaNombre: Allison Carvajal Estrada CC: 1.013.676.828 de BogotáN° 
+Cel: 3142421604Dirección residencia: CRA 12 A # 2 -34 surBarrio: Sevilla Descripción del sujeto: 
+1.70 Mts aproximadamente de estatura tez blanca, Vestía Jean de color azul, cha queta 
+impermeable de color azul oscuro, tenis de color gris, gorra azul oscuro con logo de YANKIES 
+(portaba arma de fuego tipo pistola). Delincuente plenamente identificado como: Diego Fernando 
+Rativa CC: 1.001.047.057.Hechos:Ingresa el sujeto anteriorment e descrito al piso de ventas, se 
+dirige directamente a la POS 3 aprovechando que la Asistente le va a entregar vueltas a una 
+cliente, la intimida con un arma de fuego tipo pistola, la obliga abrir la tapa de la POS, logra 
+extraer el dinero producto de las ventas, sale de la tienda caminando y emprende la huida con 
+rumbo desconocido por la avenida Caracas sentido norte - surSe encontraba en la POS 
+3Nombre: Angie Tatiana Jimenez GomezC.C: 1.000.121.985 de BogotáDirección: CRA 5 este # 
+36B sur -49Barrio: La Vic toriaCel: 3247856370Afectaciones:Dinero:POS 3: $1'073.000Total: 
+$1'073.000Personal y cliente ilesosLlega cuadrante Berna al mando del Intendente Orlando 
+Sánchez Cel: 3017533464No llega Unidad Investigativa"
+3,Municipio Fiscal,"1 - BOGOTÁ, D.C."
+3,Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
+3,Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
+3,Despacho,31 - FISCALIA 31
+3,Estado de la asignación,VIGENTE
+3,Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
+3,Estado del caso,ACTIVO
+3,Etapa del caso,INDAGACIÓN
+3,Calidad_1,DENUNCIANTE
+3,Documento_1,CEDULA DE CIUDADANIA
+3,Número documento_1,1000121985
+3,Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
+3,Departamento de notificación_1,
+3,Municipio de notificación_1,
+3,Teléfono de notificación_1,
+3,Teléfono móvil_1,3124623005
+3,Correo Electrónico_1,jorge.morales@d1.com.co
+3,Teléfono Oficina_1,
+3,Calidad_2,VICTIMA
+3,Documento_2,CEDULA DE CIUDADANIA
+3,Número documento_2,1000121985
+3,Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
+3,Departamento de notificación_2,
+3,Municipio de notificación_2,
+3,Teléfono de notificación_2,
+3,Teléfono móvil_2,3124623005
+3,Correo Electrónico_2,jorge.morales@d1.com.co
+3,Teléfono Oficina_2,
+3,Calidad_3,
+3,Documento_3,
+3,Número documento_3,
+3,Nombre_3,
+3,Departamento de notificación_3,
+3,Municipio de notificación_3,
+3,Teléfono de notificación_3,
+3,Teléfono móvil_3,
+3,Correo Electrónico_3,
+3,Teléfono Oficina_3,
+3,Calidad_4,
+3,Documento_4,
+3,Número documento_4,
+3,Nombre_4,
+3,Departamento de notificación_4,
+3,Municipio de notificación_4,
+3,Teléfono de notificación_4,
+3,Teléfono móvil_4,
+3,Correo Electrónico_4,
+3,Teléfono Oficina_4,
+3,Calidad_5,
+3,Documento_5,
+3,Número documento_5,
+3,Nombre_5,
+3,Departamento de notificación_5,
+3,Municipio de notificación_5,
+3,Teléfono de notificación_5,
+3,Teléfono móvil_5,
+3,Correo Electrónico_5,
+3,Teléfono Oficina_5,
+4,Caso Noticia,110016000050202448385
+4,Ley de Aplicabilidad,Ley 906
+4,Procedimiento Abreviado?,SI
+4,Priorizado,NO
+4,Tipo Noticia,DENUNCIA
+4,Delito,HURTO. ART. 239 C.P.
+4,Grado Delito,NINGUNO
+4,Caracterización,HURTO A ESTABLECIMIENTOS
+4,Modalidad,ATRACO
+4,Modo,ARMA DE FUEGO
+4,Fecha de los Hechos,07/06/2024 00:36:00
+4,Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
+4,Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
+FormalizaciónAtraco a mano armadaTienda D1: Ciudad BernaCódigo: 6A080227Dirección: CRA 
+14 # 6 sur -34Localidad: Antonio NariñoFecha: 06 -06-2024Hora: 19:36 ¿ 19:37Quien reporta: 
+Supervis ora punto de ventaNombre: Allison Carvajal Estrada CC: 1.013.676.828 de BogotáN° 
+Cel: 3142421604Dirección residencia: CRA 12 A # 2 -34 surBarrio: Sevilla Descripción del sujeto: 
+1.70 Mts aproximadamente de estatura tez blanca, Vestía Jean de color azul, cha queta 
+impermeable de color azul oscuro, tenis de color gris, gorra azul oscuro con logo de YANKIES 
+(portaba arma de fuego tipo pistola). Delincuente plenamente identificado como: Diego Fernando 
+Rativa CC: 1.001.047.057.Hechos:Ingresa el sujeto anteriorment e descrito al piso de ventas, se 
+dirige directamente a la POS 3 aprovechando que la Asistente le va a entregar vueltas a una 
+cliente, la intimida con un arma de fuego tipo pistola, la obliga abrir la tapa de la POS, logra 
+extraer el dinero producto de las ventas, sale de la tienda caminando y emprende la huida con 
+rumbo desconocido por la avenida Caracas sentido norte - surSe encontraba en la POS 
+3Nombre: Angie Tatiana Jimenez GomezC.C: 1.000.121.985 de BogotáDirección: CRA 5 este # 
+36B sur -49Barrio: La Vic toriaCel: 3247856370Afectaciones:Dinero:POS 3: $1'073.000Total: 
+$1'073.000Personal y cliente ilesosLlega cuadrante Berna al mando del Intendente Orlando 
+Sánchez Cel: 3017533464No llega Unidad Investigativa"
+4,Municipio Fiscal,"1 - BOGOTÁ, D.C."
+4,Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
+4,Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
+4,Despacho,31 - FISCALIA 31
+4,Estado de la asignación,VIGENTE
+4,Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
+4,Estado del caso,ACTIVO
+4,Etapa del caso,INDAGACIÓN
+4,Calidad_1,DENUNCIANTE
+4,Documento_1,CEDULA DE CIUDADANIA
+4,Número documento_1,1000121985
+4,Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
+4,Departamento de notificación_1,
+4,Municipio de notificación_1,
+4,Teléfono de notificación_1,
+4,Teléfono móvil_1,3124623005
+4,Correo Electrónico_1,jorge.morales@d1.com.co
+4,Teléfono Oficina_1,
+4,Calidad_2,VICTIMA
+4,Documento_2,CEDULA DE CIUDADANIA
+4,Número documento_2,1000121985
+4,Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
+4,Departamento de notificación_2,
+4,Municipio de notificación_2,
+4,Teléfono de notificación_2,
+4,Teléfono móvil_2,3124623005
+4,Correo Electrónico_2,jorge.morales@d1.com.co
+4,Teléfono Oficina_2,
+4,Calidad_3,
+4,Documento_3,
+4,Número documento_3,
+4,Nombre_3,
+4,Departamento de notificación_3,
+4,Municipio de notificación_3,
+4,Teléfono de notificación_3,
+4,Teléfono móvil_3,
+4,Correo Electrónico_3,
+4,Teléfono Oficina_3,
+4,Calidad_4,
+4,Documento_4,
+4,Número documento_4,
+4,Nombre_4,
+4,Departamento de notificación_4,
+4,Municipio de notificación_4,
+4,Teléfono de notificación_4,
+4,Teléfono móvil_4,
+4,Correo Electrónico_4,
+4,Teléfono Oficina_4,
+4,Calidad_5,
+4,Documento_5,
+4,Número documento_5,
+4,Nombre_5,
+4,Departamento de notificación_5,
+4,Municipio de notificación_5,
+4,Teléfono de notificación_5,
+4,Teléfono móvil_5,
+4,Correo Electrónico_5,
+4,Teléfono Oficina_5,
+5,Caso Noticia,110016000050202448385
+5,Ley de Aplicabilidad,Ley 906
+5,Procedimiento Abreviado?,SI
+5,Priorizado,NO
+5,Tipo Noticia,DENUNCIA
+5,Delito,HURTO. ART. 239 C.P.
+5,Grado Delito,NINGUNO
+5,Caracterización,HURTO A ESTABLECIMIENTOS
+5,Modalidad,ATRACO
+5,Modo,ARMA DE FUEGO
+5,Fecha de los Hechos,07/06/2024 00:36:00
+5,Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
+5,Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
+FormalizaciónAtraco a mano armadaTienda D1: Ciudad BernaCódigo: 6A080227Dirección: CRA 
+14 # 6 sur -34Localidad: Antonio NariñoFecha: 06 -06-2024Hora: 19:36 ¿ 19:37Quien reporta: 
+Supervis ora punto de ventaNombre: Allison Carvajal Estrada CC: 1.013.676.828 de BogotáN° 
+Cel: 3142421604Dirección residencia: CRA 12 A # 2 -34 surBarrio: Sevilla Descripción del sujeto: 
+1.70 Mts aproximadamente de estatura tez blanca, Vestía Jean de color azul, cha queta 
+impermeable de color azul oscuro, tenis de color gris, gorra azul oscuro con logo de YANKIES 
+(portaba arma de fuego tipo pistola). Delincuente plenamente identificado como: Diego Fernando 
+Rativa CC: 1.001.047.057.Hechos:Ingresa el sujeto anteriorment e descrito al piso de ventas, se 
+dirige directamente a la POS 3 aprovechando que la Asistente le va a entregar vueltas a una 
+cliente, la intimida con un arma de fuego tipo pistola, la obliga abrir la tapa de la POS, logra 
+extraer el dinero producto de las ventas, sale de la tienda caminando y emprende la huida con 
+rumbo desconocido por la avenida Caracas sentido norte - surSe encontraba en la POS 
+3Nombre: Angie Tatiana Jimenez GomezC.C: 1.000.121.985 de BogotáDirección: CRA 5 este # 
+36B sur -49Barrio: La Vic toriaCel: 3247856370Afectaciones:Dinero:POS 3: $1'073.000Total: 
+$1'073.000Personal y cliente ilesosLlega cuadrante Berna al mando del Intendente Orlando 
+Sánchez Cel: 3017533464No llega Unidad Investigativa"
+5,Municipio Fiscal,"1 - BOGOTÁ, D.C."
+5,Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
+5,Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
+5,Despacho,31 - FISCALIA 31
+5,Estado de la asignación,VIGENTE
+5,Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
+5,Estado del caso,ACTIVO
+5,Etapa del caso,INDAGACIÓN
+5,Calidad_1,DENUNCIANTE
+5,Documento_1,CEDULA DE CIUDADANIA
+5,Número documento_1,1000121985
+5,Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
+5,Departamento de notificación_1,
+5,Municipio de notificación_1,
+5,Teléfono de notificación_1,
+5,Teléfono móvil_1,3124623005
+5,Correo Electrónico_1,jorge.morales@d1.com.co
+5,Teléfono Oficina_1,
+5,Calidad_2,VICTIMA
+5,Documento_2,CEDULA DE CIUDADANIA
+5,Número documento_2,1000121985
+5,Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
+5,Departamento de notificación_2,
+5,Municipio de notificación_2,
+5,Teléfono de notificación_2,
+5,Teléfono móvil_2,3124623005
+5,Correo Electrónico_2,jorge.morales@d1.com.co
+5,Teléfono Oficina_2,
+5,Calidad_3,
+5,Documento_3,
+5,Número documento_3,
+5,Nombre_3,
+5,Departamento de notificación_3,
+5,Municipio de notificación_3,
+5,Teléfono de notificación_3,
+5,Teléfono móvil_3,
+5,Correo Electrónico_3,
+5,Teléfono Oficina_3,
+5,Calidad_4,
+5,Documento_4,
+5,Número documento_4,
+5,Nombre_4,
+5,Departamento de notificación_4,
+5,Municipio de notificación_4,
+5,Teléfono de notificación_4,
+5,Teléfono móvil_4,
+5,Correo Electrónico_4,
+5,Teléfono Oficina_4,
+5,Calidad_5,
+5,Documento_5,
+5,Número documento_5,
+5,Nombre_5,
+5,Departamento de notificación_5,
+5,Municipio de notificación_5,
+5,Teléfono de notificación_5,
+5,Teléfono móvil_5,
+5,Correo Electrónico_5,
+5,Teléfono Oficina_5,
+6,Caso Noticia,110016000050202448385
+6,Ley de Aplicabilidad,Ley 906
+6,Procedimiento Abreviado?,SI
+6,Priorizado,NO
+6,Tipo Noticia,DENUNCIA
+6,Delito,HURTO. ART. 239 C.P.
+6,Grado Delito,NINGUNO
+6,Caracterización,HURTO A ESTABLECIMIENTOS
+6,Modalidad,ATRACO
+6,Modo,ARMA DE FUEGO
+6,Fecha de los Hechos,07/06/2024 00:36:00
+6,Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
+6,Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
+FormalizaciónAtraco a mano armadaTienda D1: Ciudad BernaCódigo: 6A080227Dirección: CRA 
+14 # 6 sur -34Localidad: Antonio NariñoFecha: 06 -06-2024Hora: 19:36 ¿ 19:37Quien reporta: 
+Supervis ora punto de ventaNombre: Allison Carvajal Estrada CC: 1.013.676.828 de BogotáN° 
+Cel: 3142421604Dirección residencia: CRA 12 A # 2 -34 surBarrio: Sevilla Descripción del sujeto: 
+1.70 Mts aproximadamente de estatura tez blanca, Vestía Jean de color azul, cha queta 
+impermeable de color azul oscuro, tenis de color gris, gorra azul oscuro con logo de YANKIES 
+(portaba arma de fuego tipo pistola). Delincuente plenamente identificado como: Diego Fernando 
+Rativa CC: 1.001.047.057.Hechos:Ingresa el sujeto anteriorment e descrito al piso de ventas, se 
+dirige directamente a la POS 3 aprovechando que la Asistente le va a entregar vueltas a una 
+cliente, la intimida con un arma de fuego tipo pistola, la obliga abrir la tapa de la POS, logra 
+extraer el dinero producto de las ventas, sale de la tienda caminando y emprende la huida con 
+rumbo desconocido por la avenida Caracas sentido norte - surSe encontraba en la POS 
+3Nombre: Angie Tatiana Jimenez GomezC.C: 1.000.121.985 de BogotáDirección: CRA 5 este # 
+36B sur -49Barrio: La Vic toriaCel: 3247856370Afectaciones:Dinero:POS 3: $1'073.000Total: 
+$1'073.000Personal y cliente ilesosLlega cuadrante Berna al mando del Intendente Orlando 
+Sánchez Cel: 3017533464No llega Unidad Investigativa"
+6,Municipio Fiscal,"1 - BOGOTÁ, D.C."
+6,Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
+6,Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
+6,Despacho,31 - FISCALIA 31
+6,Estado de la asignación,VIGENTE
+6,Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
+6,Estado del caso,ACTIVO
+6,Etapa del caso,INDAGACIÓN
+6,Calidad_1,DENUNCIANTE
+6,Documento_1,CEDULA DE CIUDADANIA
+6,Número documento_1,1000121985
+6,Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
+6,Departamento de notificación_1,
+6,Municipio de notificación_1,
+6,Teléfono de notificación_1,
+6,Teléfono móvil_1,3124623005
+6,Correo Electrónico_1,jorge.morales@d1.com.co
+6,Teléfono Oficina_1,
+6,Calidad_2,VICTIMA
+6,Documento_2,CEDULA DE CIUDADANIA
+6,Número documento_2,1000121985
+6,Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
+6,Departamento de notificación_2,
+6,Municipio de notificación_2,
+6,Teléfono de notificación_2,
+6,Teléfono móvil_2,3124623005
+6,Correo Electrónico_2,jorge.morales@d1.com.co
+6,Teléfono Oficina_2,
+6,Calidad_3,
+6,Documento_3,
+6,Número documento_3,
+6,Nombre_3,
+6,Departamento de notificación_3,
+6,Municipio de notificación_3,
+6,Teléfono de notificación_3,
+6,Teléfono móvil_3,
+6,Correo Electrónico_3,
+6,Teléfono Oficina_3,
+6,Calidad_4,
+6,Documento_4,
+6,Número documento_4,
+6,Nombre_4,
+6,Departamento de notificación_4,
+6,Municipio de notificación_4,
+6,Teléfono de notificación_4,
+6,Teléfono móvil_4,
+6,Correo Electrónico_4,
+6,Teléfono Oficina_4,
+6,Calidad_5,
+6,Documento_5,
+6,Número documento_5,
+6,Nombre_5,
+6,Departamento de notificación_5,
+6,Municipio de notificación_5,
+6,Teléfono de notificación_5,
+6,Teléfono móvil_5,
+6,Correo Electrónico_5,
+6,Teléfono Oficina_5,
+7,Caso Noticia,110016000050202448385
+7,Ley de Aplicabilidad,Ley 906
+7,Procedimiento Abreviado?,SI
+7,Priorizado,NO
+7,Tipo Noticia,DENUNCIA
+7,Delito,HURTO. ART. 239 C.P.
+7,Grado Delito,NINGUNO
+7,Caracterización,HURTO A ESTABLECIMIENTOS
+7,Modalidad,ATRACO
+7,Modo,ARMA DE FUEGO
+7,Fecha de los Hechos,07/06/2024 00:36:00
+7,Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
+7,Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
+FormalizaciónAtraco a mano armadaTienda D1: Ciudad BernaCódigo: 6A080227Dirección: CRA 
+14 # 6 sur -34Localidad: Antonio NariñoFecha: 06 -06-2024Hora: 19:36 ¿ 19:37Quien reporta: 
+Supervis ora punto de ventaNombre: Allison Carvajal Estrada CC: 1.013.676.828 de BogotáN° 
+Cel: 3142421604Dirección residencia: CRA 12 A # 2 -34 surBarrio: Sevilla Descripción del sujeto: 
+1.70 Mts aproximadamente de estatura tez blanca, Vestía Jean de color azul, cha queta 
+impermeable de color azul oscuro, tenis de color gris, gorra azul oscuro con logo de YANKIES 
+(portaba arma de fuego tipo pistola). Delincuente plenamente identificado como: Diego Fernando 
+Rativa CC: 1.001.047.057.Hechos:Ingresa el sujeto anteriorment e descrito al piso de ventas, se 
+dirige directamente a la POS 3 aprovechando que la Asistente le va a entregar vueltas a una 
+cliente, la intimida con un arma de fuego tipo pistola, la obliga abrir la tapa de la POS, logra 
+extraer el dinero producto de las ventas, sale de la tienda caminando y emprende la huida con 
+rumbo desconocido por la avenida Caracas sentido norte - surSe encontraba en la POS 
+3Nombre: Angie Tatiana Jimenez GomezC.C: 1.000.121.985 de BogotáDirección: CRA 5 este # 
+36B sur -49Barrio: La Vic toriaCel: 3247856370Afectaciones:Dinero:POS 3: $1'073.000Total: 
+$1'073.000Personal y cliente ilesosLlega cuadrante Berna al mando del Intendente Orlando 
+Sánchez Cel: 3017533464No llega Unidad Investigativa"
+7,Municipio Fiscal,"1 - BOGOTÁ, D.C."
+7,Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
+7,Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
+7,Despacho,31 - FISCALIA 31
+7,Estado de la asignación,VIGENTE
+7,Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
+7,Estado del caso,ACTIVO
+7,Etapa del caso,INDAGACIÓN
+7,Calidad_1,DENUNCIANTE
+7,Documento_1,CEDULA DE CIUDADANIA
+7,Número documento_1,1000121985
+7,Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
+7,Departamento de notificación_1,
+7,Municipio de notificación_1,
+7,Teléfono de notificación_1,
+7,Teléfono móvil_1,3124623005
+7,Correo Electrónico_1,jorge.morales@d1.com.co
+7,Teléfono Oficina_1,
+7,Calidad_2,VICTIMA
+7,Documento_2,CEDULA DE CIUDADANIA
+7,Número documento_2,1000121985
+7,Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
+7,Departamento de notificación_2,
+7,Municipio de notificación_2,
+7,Teléfono de notificación_2,
+7,Teléfono móvil_2,3124623005
+7,Correo Electrónico_2,jorge.morales@d1.com.co
+7,Teléfono Oficina_2,
+7,Calidad_3,
+7,Documento_3,
+7,Número documento_3,
+7,Nombre_3,
+7,Departamento de notificación_3,
+7,Municipio de notificación_3,
+7,Teléfono de notificación_3,
+7,Teléfono móvil_3,
+7,Correo Electrónico_3,
+7,Teléfono Oficina_3,
+7,Calidad_4,
+7,Documento_4,
+7,Número documento_4,
+7,Nombre_4,
+7,Departamento de notificación_4,
+7,Municipio de notificación_4,
+7,Teléfono de notificación_4,
+7,Teléfono móvil_4,
+7,Correo Electrónico_4,
+7,Teléfono Oficina_4,
+7,Calidad_5,
+7,Documento_5,
+7,Número documento_5,
+7,Nombre_5,
+7,Departamento de notificación_5,
+7,Municipio de notificación_5,
+7,Teléfono de notificación_5,
+7,Teléfono móvil_5,
+7,Correo Electrónico_5,
+7,Teléfono Oficina_5,
+8,Caso Noticia,110016000050202448385
+8,Ley de Aplicabilidad,Ley 906
+8,Procedimiento Abreviado?,SI
+8,Priorizado,NO
+8,Tipo Noticia,DENUNCIA
+8,Delito,HURTO. ART. 239 C.P.
+8,Grado Delito,NINGUNO
+8,Caracterización,HURTO A ESTABLECIMIENTOS
+8,Modalidad,ATRACO
+8,Modo,ARMA DE FUEGO
+8,Fecha de los Hechos,07/06/2024 00:36:00
+8,Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
+8,Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
+FormalizaciónAtraco a mano armadaTienda D1: Ciudad BernaCódigo: 6A080227Dirección: CRA 
+14 # 6 sur -34Localidad: Antonio NariñoFecha: 06 -06-2024Hora: 19:36 ¿ 19:37Quien reporta: 
+Supervis ora punto de ventaNombre: Allison Carvajal Estrada CC: 1.013.676.828 de BogotáN° 
+Cel: 3142421604Dirección residencia: CRA 12 A # 2 -34 surBarrio: Sevilla Descripción del sujeto: 
+1.70 Mts aproximadamente de estatura tez blanca, Vestía Jean de color azul, cha queta 
+impermeable de color azul oscuro, tenis de color gris, gorra azul oscuro con logo de YANKIES 
+(portaba arma de fuego tipo pistola). Delincuente plenamente identificado como: Diego Fernando 
+Rativa CC: 1.001.047.057.Hechos:Ingresa el sujeto anteriorment e descrito al piso de ventas, se 
+dirige directamente a la POS 3 aprovechando que la Asistente le va a entregar vueltas a una 
+cliente, la intimida con un arma de fuego tipo pistola, la obliga abrir la tapa de la POS, logra 
+extraer el dinero producto de las ventas, sale de la tienda caminando y emprende la huida con 
+rumbo desconocido por la avenida Caracas sentido norte - surSe encontraba en la POS 
+3Nombre: Angie Tatiana Jimenez GomezC.C: 1.000.121.985 de BogotáDirección: CRA 5 este # 
+36B sur -49Barrio: La Vic toriaCel: 3247856370Afectaciones:Dinero:POS 3: $1'073.000Total: 
+$1'073.000Personal y cliente ilesosLlega cuadrante Berna al mando del Intendente Orlando 
+Sánchez Cel: 3017533464No llega Unidad Investigativa"
+8,Municipio Fiscal,"1 - BOGOTÁ, D.C."
+8,Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
+8,Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
+8,Despacho,31 - FISCALIA 31
+8,Estado de la asignación,VIGENTE
+8,Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
+8,Estado del caso,ACTIVO
+8,Etapa del caso,INDAGACIÓN
+8,Calidad_1,DENUNCIANTE
+8,Documento_1,CEDULA DE CIUDADANIA
+8,Número documento_1,1000121985
+8,Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
+8,Departamento de notificación_1,
+8,Municipio de notificación_1,
+8,Teléfono de notificación_1,
+8,Teléfono móvil_1,3124623005
+8,Correo Electrónico_1,jorge.morales@d1.com.co
+8,Teléfono Oficina_1,
+8,Calidad_2,VICTIMA
+8,Documento_2,CEDULA DE CIUDADANIA
+8,Número documento_2,1000121985
+8,Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
+8,Departamento de notificación_2,
+8,Municipio de notificación_2,
+8,Teléfono de notificación_2,
+8,Teléfono móvil_2,3124623005
+8,Correo Electrónico_2,jorge.morales@d1.com.co
+8,Teléfono Oficina_2,
+8,Calidad_3,
+8,Documento_3,
+8,Número documento_3,
+8,Nombre_3,
+8,Departamento de notificación_3,
+8,Municipio de notificación_3,
+8,Teléfono de notificación_3,
+8,Teléfono móvil_3,
+8,Correo Electrónico_3,
+8,Teléfono Oficina_3,
+8,Calidad_4,
+8,Documento_4,
+8,Número documento_4,
+8,Nombre_4,
+8,Departamento de notificación_4,
+8,Municipio de notificación_4,
+8,Teléfono de notificación_4,
+8,Teléfono móvil_4,
+8,Correo Electrónico_4,
+8,Teléfono Oficina_4,
+8,Calidad_5,
+8,Documento_5,
+8,Número documento_5,
+8,Nombre_5,
+8,Departamento de notificación_5,
+8,Municipio de notificación_5,
+8,Teléfono de notificación_5,
+8,Teléfono móvil_5,
+8,Correo Electrónico_5,
+8,Teléfono Oficina_5,
+9,Caso Noticia,110016000050202448385
+9,Ley de Aplicabilidad,Ley 906
+9,Procedimiento Abreviado?,SI
+9,Priorizado,NO
+9,Tipo Noticia,DENUNCIA
+9,Delito,HURTO. ART. 239 C.P.
+9,Grado Delito,NINGUNO
+9,Caracterización,HURTO A ESTABLECIMIENTOS
+9,Modalidad,ATRACO
+9,Modo,ARMA DE FUEGO
+9,Fecha de los Hechos,07/06/2024 00:36:00
+9,Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
+9,Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
+FormalizaciónAtraco a mano armadaTienda D1: Ciudad BernaCódigo: 6A080227Dirección: CRA 
+14 # 6 sur -34Localidad: Antonio NariñoFecha: 06 -06-2024Hora: 19:36 ¿ 19:37Quien reporta: 
+Supervis ora punto de ventaNombre: Allison Carvajal Estrada CC: 1.013.676.828 de BogotáN° 
+Cel: 3142421604Dirección residencia: CRA 12 A # 2 -34 surBarrio: Sevilla Descripción del sujeto: 
+1.70 Mts aproximadamente de estatura tez blanca, Vestía Jean de color azul, cha queta 
+impermeable de color azul oscuro, tenis de color gris, gorra azul oscuro con logo de YANKIES 
+(portaba arma de fuego tipo pistola). Delincuente plenamente identificado como: Diego Fernando 
+Rativa CC: 1.001.047.057.Hechos:Ingresa el sujeto anteriorment e descrito al piso de ventas, se 
+dirige directamente a la POS 3 aprovechando que la Asistente le va a entregar vueltas a una 
+cliente, la intimida con un arma de fuego tipo pistola, la obliga abrir la tapa de la POS, logra 
+extraer el dinero producto de las ventas, sale de la tienda caminando y emprende la huida con 
+rumbo desconocido por la avenida Caracas sentido norte - surSe encontraba en la POS 
+3Nombre: Angie Tatiana Jimenez GomezC.C: 1.000.121.985 de BogotáDirección: CRA 5 este # 
+36B sur -49Barrio: La Vic toriaCel: 3247856370Afectaciones:Dinero:POS 3: $1'073.000Total: 
+$1'073.000Personal y cliente ilesosLlega cuadrante Berna al mando del Intendente Orlando 
+Sánchez Cel: 3017533464No llega Unidad Investigativa"
+9,Municipio Fiscal,"1 - BOGOTÁ, D.C."
+9,Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
+9,Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
+9,Despacho,31 - FISCALIA 31
+9,Estado de la asignación,VIGENTE
+9,Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
+9,Estado del caso,ACTIVO
+9,Etapa del caso,INDAGACIÓN
+9,Calidad_1,DENUNCIANTE
+9,Documento_1,CEDULA DE CIUDADANIA
+9,Número documento_1,1000121985
+9,Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
+9,Departamento de notificación_1,
+9,Municipio de notificación_1,
+9,Teléfono de notificación_1,
+9,Teléfono móvil_1,3124623005
+9,Correo Electrónico_1,jorge.morales@d1.com.co
+9,Teléfono Oficina_1,
+9,Calidad_2,VICTIMA
+9,Documento_2,CEDULA DE CIUDADANIA
+9,Número documento_2,1000121985
+9,Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
+9,Departamento de notificación_2,
+9,Municipio de notificación_2,
+9,Teléfono de notificación_2,
+9,Teléfono móvil_2,3124623005
+9,Correo Electrónico_2,jorge.morales@d1.com.co
+9,Teléfono Oficina_2,
+9,Calidad_3,
+9,Documento_3,
+9,Número documento_3,
+9,Nombre_3,
+9,Departamento de notificación_3,
+9,Municipio de notificación_3,
+9,Teléfono de notificación_3,
+9,Teléfono móvil_3,
+9,Correo Electrónico_3,
+9,Teléfono Oficina_3,
+9,Calidad_4,
+9,Documento_4,
+9,Número documento_4,
+9,Nombre_4,
+9,Departamento de notificación_4,
+9,Municipio de notificación_4,
+9,Teléfono de notificación_4,
+9,Teléfono móvil_4,
+9,Correo Electrónico_4,
+9,Teléfono Oficina_4,
+9,Calidad_5,
+9,Documento_5,
+9,Número documento_5,
+9,Nombre_5,
+9,Departamento de notificación_5,
+9,Municipio de notificación_5,
+9,Teléfono de notificación_5,
+9,Teléfono móvil_5,
+9,Correo Electrónico_5,
+9,Teléfono Oficina_5,
+10,Caso Noticia,110016000050202448385
+10,Ley de Aplicabilidad,Ley 906
+10,Procedimiento Abreviado?,SI
+10,Priorizado,NO
+10,Tipo Noticia,DENUNCIA
+10,Delito,HURTO. ART. 239 C.P.
+10,Grado Delito,NINGUNO
+10,Caracterización,HURTO A ESTABLECIMIENTOS
+10,Modalidad,ATRACO
+10,Modo,ARMA DE FUEGO
+10,Fecha de los Hechos,07/06/2024 00:36:00
+10,Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
+10,Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
+FormalizaciónAtraco a mano armadaTienda D1: Ciudad BernaCódigo: 6A080227Dirección: CRA 
+14 # 6 sur -34Localidad: Antonio NariñoFecha: 06 -06-2024Hora: 19:36 ¿ 19:37Quien reporta: 
+Supervis ora punto de ventaNombre: Allison Carvajal Estrada CC: 1.013.676.828 de BogotáN° 
+Cel: 3142421604Dirección residencia: CRA 12 A # 2 -34 surBarrio: Sevilla Descripción del sujeto: 
+1.70 Mts aproximadamente de estatura tez blanca, Vestía Jean de color azul, cha queta 
+impermeable de color azul oscuro, tenis de color gris, gorra azul oscuro con logo de YANKIES 
+(portaba arma de fuego tipo pistola). Delincuente plenamente identificado como: Diego Fernando 
+Rativa CC: 1.001.047.057.Hechos:Ingresa el sujeto anteriorment e descrito al piso de ventas, se 
+dirige directamente a la POS 3 aprovechando que la Asistente le va a entregar vueltas a una 
+cliente, la intimida con un arma de fuego tipo pistola, la obliga abrir la tapa de la POS, logra 
+extraer el dinero producto de las ventas, sale de la tienda caminando y emprende la huida con 
+rumbo desconocido por la avenida Caracas sentido norte - surSe encontraba en la POS 
+3Nombre: Angie Tatiana Jimenez GomezC.C: 1.000.121.985 de BogotáDirección: CRA 5 este # 
+36B sur -49Barrio: La Vic toriaCel: 3247856370Afectaciones:Dinero:POS 3: $1'073.000Total: 
+$1'073.000Personal y cliente ilesosLlega cuadrante Berna al mando del Intendente Orlando 
+Sánchez Cel: 3017533464No llega Unidad Investigativa"
+10,Municipio Fiscal,"1 - BOGOTÁ, D.C."
+10,Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
+10,Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
+10,Despacho,31 - FISCALIA 31
+10,Estado de la asignación,VIGENTE
+10,Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
+10,Estado del caso,ACTIVO
+10,Etapa del caso,INDAGACIÓN
+10,Calidad_1,DENUNCIANTE
+10,Documento_1,CEDULA DE CIUDADANIA
+10,Número documento_1,1000121985
+10,Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
+10,Departamento de notificación_1,
+10,Municipio de notificación_1,
+10,Teléfono de notificación_1,
+10,Teléfono móvil_1,3124623005
+10,Correo Electrónico_1,jorge.morales@d1.com.co
+10,Teléfono Oficina_1,
+10,Calidad_2,VICTIMA
+10,Documento_2,CEDULA DE CIUDADANIA
+10,Número documento_2,1000121985
+10,Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
+10,Departamento de notificación_2,
+10,Municipio de notificación_2,
+10,Teléfono de notificación_2,
+10,Teléfono móvil_2,3124623005
+10,Correo Electrónico_2,jorge.morales@d1.com.co
+10,Teléfono Oficina_2,
+10,Calidad_3,
+10,Documento_3,
+10,Número documento_3,
+10,Nombre_3,
+10,Departamento de notificación_3,
+10,Municipio de notificación_3,
+10,Teléfono de notificación_3,
+10,Teléfono móvil_3,
+10,Correo Electrónico_3,
+10,Teléfono Oficina_3,
+10,Calidad_4,
+10,Documento_4,
+10,Número documento_4,
+10,Nombre_4,
+10,Departamento de notificación_4,
+10,Municipio de notificación_4,
+10,Teléfono de notificación_4,
+10,Teléfono móvil_4,
+10,Correo Electrónico_4,
+10,Teléfono Oficina_4,
+10,Calidad_5,
+10,Documento_5,
+10,Número documento_5,
+10,Nombre_5,
+10,Departamento de notificación_5,
+10,Municipio de notificación_5,
+10,Teléfono de notificación_5,
+10,Teléfono móvil_5,
+10,Correo Electrónico_5,
+10,Teléfono Oficina_5,
+11,Caso Noticia,110016000050202448385
+11,Ley de Aplicabilidad,Ley 906
+11,Procedimiento Abreviado?,SI
+11,Priorizado,NO
+11,Tipo Noticia,DENUNCIA
+11,Delito,HURTO. ART. 239 C.P.
+11,Grado Delito,NINGUNO
+11,Caracterización,HURTO A ESTABLECIMIENTOS
+11,Modalidad,ATRACO
+11,Modo,ARMA DE FUEGO
+11,Fecha de los Hechos,07/06/2024 00:36:00
+11,Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
+11,Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
+FormalizaciónAtraco a mano armadaTienda D1: Ciudad BernaCódigo: 6A080227Dirección: CRA 
+14 # 6 sur -34Localidad: Antonio NariñoFecha: 06 -06-2024Hora: 19:36 ¿ 19:37Quien reporta: 
+Supervis ora punto de ventaNombre: Allison Carvajal Estrada CC: 1.013.676.828 de BogotáN° 
+Cel: 3142421604Dirección residencia: CRA 12 A # 2 -34 surBarrio: Sevilla Descripción del sujeto: 
+1.70 Mts aproximadamente de estatura tez blanca, Vestía Jean de color azul, cha queta 
+impermeable de color azul oscuro, tenis de color gris, gorra azul oscuro con logo de YANKIES 
+(portaba arma de fuego tipo pistola). Delincuente plenamente identificado como: Diego Fernando 
+Rativa CC: 1.001.047.057.Hechos:Ingresa el sujeto anteriorment e descrito al piso de ventas, se 
+dirige directamente a la POS 3 aprovechando que la Asistente le va a entregar vueltas a una 
+cliente, la intimida con un arma de fuego tipo pistola, la obliga abrir la tapa de la POS, logra 
+extraer el dinero producto de las ventas, sale de la tienda caminando y emprende la huida con 
+rumbo desconocido por la avenida Caracas sentido norte - surSe encontraba en la POS 
+3Nombre: Angie Tatiana Jimenez GomezC.C: 1.000.121.985 de BogotáDirección: CRA 5 este # 
+36B sur -49Barrio: La Vic toriaCel: 3247856370Afectaciones:Dinero:POS 3: $1'073.000Total: 
+$1'073.000Personal y cliente ilesosLlega cuadrante Berna al mando del Intendente Orlando 
+Sánchez Cel: 3017533464No llega Unidad Investigativa"
+11,Municipio Fiscal,"1 - BOGOTÁ, D.C."
+11,Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
+11,Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
+11,Despacho,31 - FISCALIA 31
+11,Estado de la asignación,VIGENTE
+11,Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
+11,Estado del caso,ACTIVO
+11,Etapa del caso,INDAGACIÓN
+11,Calidad_1,DENUNCIANTE
+11,Documento_1,CEDULA DE CIUDADANIA
+11,Número documento_1,1000121985
+11,Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
+11,Departamento de notificación_1,
+11,Municipio de notificación_1,
+11,Teléfono de notificación_1,
+11,Teléfono móvil_1,3124623005
+11,Correo Electrónico_1,jorge.morales@d1.com.co
+11,Teléfono Oficina_1,
+11,Calidad_2,VICTIMA
+11,Documento_2,CEDULA DE CIUDADANIA
+11,Número documento_2,1000121985
+11,Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
+11,Departamento de notificación_2,
+11,Municipio de notificación_2,
+11,Teléfono de notificación_2,
+11,Teléfono móvil_2,3124623005
+11,Correo Electrónico_2,jorge.morales@d1.com.co
+11,Teléfono Oficina_2,
+11,Calidad_3,
+11,Documento_3,
+11,Número documento_3,
+11,Nombre_3,
+11,Departamento de notificación_3,
+11,Municipio de notificación_3,
+11,Teléfono de notificación_3,
+11,Teléfono móvil_3,
+11,Correo Electrónico_3,
+11,Teléfono Oficina_3,
+11,Calidad_4,
+11,Documento_4,
+11,Número documento_4,
+11,Nombre_4,
+11,Departamento de notificación_4,
+11,Municipio de notificación_4,
+11,Teléfono de notificación_4,
+11,Teléfono móvil_4,
+11,Correo Electrónico_4,
+11,Teléfono Oficina_4,
+11,Calidad_5,
+11,Documento_5,
+11,Número documento_5,
+11,Nombre_5,
+11,Departamento de notificación_5,
+11,Municipio de notificación_5,
+11,Teléfono de notificación_5,
+11,Teléfono móvil_5,
+11,Correo Electrónico_5,
+11,Teléfono Oficina_5,
+12,Caso Noticia,110016000050202448385
+12,Ley de Aplicabilidad,Ley 906
+12,Procedimiento Abreviado?,SI
+12,Priorizado,NO
+12,Tipo Noticia,DENUNCIA
+12,Delito,HURTO. ART. 239 C.P.
+12,Grado Delito,NINGUNO
+12,Caracterización,HURTO A ESTABLECIMIENTOS
+12,Modalidad,ATRACO
+12,Modo,ARMA DE FUEGO
+12,Fecha de los Hechos,07/06/2024 00:36:00
+12,Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
+12,Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
+FormalizaciónAtraco a mano armadaTienda D1: Ciudad BernaCódigo: 6A080227Dirección: CRA 
+14 # 6 sur -34Localidad: Antonio NariñoFecha: 06 -06-2024Hora: 19:36 ¿ 19:37Quien reporta: 
+Supervis ora punto de ventaNombre: Allison Carvajal Estrada CC: 1.013.676.828 de BogotáN° 
+Cel: 3142421604Dirección residencia: CRA 12 A # 2 -34 surBarrio: Sevilla Descripción del sujeto: 
+1.70 Mts aproximadamente de estatura tez blanca, Vestía Jean de color azul, cha queta 
+impermeable de color azul oscuro, tenis de color gris, gorra azul oscuro con logo de YANKIES 
+(portaba arma de fuego tipo pistola). Delincuente plenamente identificado como: Diego Fernando 
+Rativa CC: 1.001.047.057.Hechos:Ingresa el sujeto anteriorment e descrito al piso de ventas, se 
+dirige directamente a la POS 3 aprovechando que la Asistente le va a entregar vueltas a una 
+cliente, la intimida con un arma de fuego tipo pistola, la obliga abrir la tapa de la POS, logra 
+extraer el dinero producto de las ventas, sale de la tienda caminando y emprende la huida con 
+rumbo desconocido por la avenida Caracas sentido norte - surSe encontraba en la POS 
+3Nombre: Angie Tatiana Jimenez GomezC.C: 1.000.121.985 de BogotáDirección: CRA 5 este # 
+36B sur -49Barrio: La Vic toriaCel: 3247856370Afectaciones:Dinero:POS 3: $1'073.000Total: 
+$1'073.000Personal y cliente ilesosLlega cuadrante Berna al mando del Intendente Orlando 
+Sánchez Cel: 3017533464No llega Unidad Investigativa"
+12,Municipio Fiscal,"1 - BOGOTÁ, D.C."
+12,Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
+12,Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
+12,Despacho,31 - FISCALIA 31
+12,Estado de la asignación,VIGENTE
+12,Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
+12,Estado del caso,ACTIVO
+12,Etapa del caso,INDAGACIÓN
+12,Calidad_1,DENUNCIANTE
+12,Documento_1,CEDULA DE CIUDADANIA
+12,Número documento_1,1000121985
+12,Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
+12,Departamento de notificación_1,
+12,Municipio de notificación_1,
+12,Teléfono de notificación_1,
+12,Teléfono móvil_1,3124623005
+12,Correo Electrónico_1,jorge.morales@d1.com.co
+12,Teléfono Oficina_1,
+12,Calidad_2,VICTIMA
+12,Documento_2,CEDULA DE CIUDADANIA
+12,Número documento_2,1000121985
+12,Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
+12,Departamento de notificación_2,
+12,Municipio de notificación_2,
+12,Teléfono de notificación_2,
+12,Teléfono móvil_2,3124623005
+12,Correo Electrónico_2,jorge.morales@d1.com.co
+12,Teléfono Oficina_2,
+12,Calidad_3,
+12,Documento_3,
+12,Número documento_3,
+12,Nombre_3,
+12,Departamento de notificación_3,
+12,Municipio de notificación_3,
+12,Teléfono de notificación_3,
+12,Teléfono móvil_3,
+12,Correo Electrónico_3,
+12,Teléfono Oficina_3,
+12,Calidad_4,
+12,Documento_4,
+12,Número documento_4,
+12,Nombre_4,
+12,Departamento de notificación_4,
+12,Municipio de notificación_4,
+12,Teléfono de notificación_4,
+12,Teléfono móvil_4,
+12,Correo Electrónico_4,
+12,Teléfono Oficina_4,
+12,Calidad_5,
+12,Documento_5,
+12,Número documento_5,
+12,Nombre_5,
+12,Departamento de notificación_5,
+12,Municipio de notificación_5,
+12,Teléfono de notificación_5,
+12,Teléfono móvil_5,
+12,Correo Electrónico_5,
+12,Teléfono Oficina_5,
+13,Caso Noticia,110016000050202448385
+13,Ley de Aplicabilidad,Ley 906
+13,Procedimiento Abreviado?,SI
+13,Priorizado,NO
+13,Tipo Noticia,DENUNCIA
+13,Delito,HURTO. ART. 239 C.P.
+13,Grado Delito,NINGUNO
+13,Caracterización,HURTO A ESTABLECIMIENTOS
+13,Modalidad,ATRACO
+13,Modo,ARMA DE FUEGO
+13,Fecha de los Hechos,07/06/2024 00:36:00
+13,Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
+13,Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
+FormalizaciónAtraco a mano armadaTienda D1: Ciudad BernaCódigo: 6A080227Dirección: CRA 
+14 # 6 sur -34Localidad: Antonio NariñoFecha: 06 -06-2024Hora: 19:36 ¿ 19:37Quien reporta: 
+Supervis ora punto de ventaNombre: Allison Carvajal Estrada CC: 1.013.676.828 de BogotáN° 
+Cel: 3142421604Dirección residencia: CRA 12 A # 2 -34 surBarrio: Sevilla Descripción del sujeto: 
+1.70 Mts aproximadamente de estatura tez blanca, Vestía Jean de color azul, cha queta 
+impermeable de color azul oscuro, tenis de color gris, gorra azul oscuro con logo de YANKIES 
+(portaba arma de fuego tipo pistola). Delincuente plenamente identificado como: Diego Fernando 
+Rativa CC: 1.001.047.057.Hechos:Ingresa el sujeto anteriorment e descrito al piso de ventas, se 
+dirige directamente a la POS 3 aprovechando que la Asistente le va a entregar vueltas a una 
+cliente, la intimida con un arma de fuego tipo pistola, la obliga abrir la tapa de la POS, logra 
+extraer el dinero producto de las ventas, sale de la tienda caminando y emprende la huida con 
+rumbo desconocido por la avenida Caracas sentido norte - surSe encontraba en la POS 
+3Nombre: Angie Tatiana Jimenez GomezC.C: 1.000.121.985 de BogotáDirección: CRA 5 este # 
+36B sur -49Barrio: La Vic toriaCel: 3247856370Afectaciones:Dinero:POS 3: $1'073.000Total: 
+$1'073.000Personal y cliente ilesosLlega cuadrante Berna al mando del Intendente Orlando 
+Sánchez Cel: 3017533464No llega Unidad Investigativa"
+13,Municipio Fiscal,"1 - BOGOTÁ, D.C."
+13,Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
+13,Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
+13,Despacho,31 - FISCALIA 31
+13,Estado de la asignación,VIGENTE
+13,Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
+13,Estado del caso,ACTIVO
+13,Etapa del caso,INDAGACIÓN
+13,Calidad_1,DENUNCIANTE
+13,Documento_1,CEDULA DE CIUDADANIA
+13,Número documento_1,1000121985
+13,Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
+13,Departamento de notificación_1,
+13,Municipio de notificación_1,
+13,Teléfono de notificación_1,
+13,Teléfono móvil_1,3124623005
+13,Correo Electrónico_1,jorge.morales@d1.com.co
+13,Teléfono Oficina_1,
+13,Calidad_2,VICTIMA
+13,Documento_2,CEDULA DE CIUDADANIA
+13,Número documento_2,1000121985
+13,Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
+13,Departamento de notificación_2,
+13,Municipio de notificación_2,
+13,Teléfono de notificación_2,
+13,Teléfono móvil_2,3124623005
+13,Correo Electrónico_2,jorge.morales@d1.com.co
+13,Teléfono Oficina_2,
+13,Calidad_3,
+13,Documento_3,
+13,Número documento_3,
+13,Nombre_3,
+13,Departamento de notificación_3,
+13,Municipio de notificación_3,
+13,Teléfono de notificación_3,
+13,Teléfono móvil_3,
+13,Correo Electrónico_3,
+13,Teléfono Oficina_3,
+13,Calidad_4,
+13,Documento_4,
+13,Número documento_4,
+13,Nombre_4,
+13,Departamento de notificación_4,
+13,Municipio de notificación_4,
+13,Teléfono de notificación_4,
+13,Teléfono móvil_4,
+13,Correo Electrónico_4,
+13,Teléfono Oficina_4,
+13,Calidad_5,
+13,Documento_5,
+13,Número documento_5,
+13,Nombre_5,
+13,Departamento de notificación_5,
+13,Municipio de notificación_5,
+13,Teléfono de notificación_5,
+13,Teléfono móvil_5,
+13,Correo Electrónico_5,
+13,Teléfono Oficina_5,
+14,Caso Noticia,110016000050202448385
+14,Ley de Aplicabilidad,Ley 906
+14,Procedimiento Abreviado?,SI
+14,Priorizado,NO
+14,Tipo Noticia,DENUNCIA
+14,Delito,HURTO. ART. 239 C.P.
+14,Grado Delito,NINGUNO
+14,Caracterización,HURTO A ESTABLECIMIENTOS
+14,Modalidad,ATRACO
+14,Modo,ARMA DE FUEGO
+14,Fecha de los Hechos,07/06/2024 00:36:00
+14,Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
+14,Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
+FormalizaciónAtraco a mano armadaTienda D1: Ciudad BernaCódigo: 6A080227Dirección: CRA 
+14 # 6 sur -34Localidad: Antonio NariñoFecha: 06 -06-2024Hora: 19:36 ¿ 19:37Quien reporta: 
+Supervis ora punto de ventaNombre: Allison Carvajal Estrada CC: 1.013.676.828 de BogotáN° 
+Cel: 3142421604Dirección residencia: CRA 12 A # 2 -34 surBarrio: Sevilla Descripción del sujeto: 
+1.70 Mts aproximadamente de estatura tez blanca, Vestía Jean de color azul, cha queta 
+impermeable de color azul oscuro, tenis de color gris, gorra azul oscuro con logo de YANKIES 
+(portaba arma de fuego tipo pistola). Delincuente plenamente identificado como: Diego Fernando 
+Rativa CC: 1.001.047.057.Hechos:Ingresa el sujeto anteriorment e descrito al piso de ventas, se 
+dirige directamente a la POS 3 aprovechando que la Asistente le va a entregar vueltas a una 
+cliente, la intimida con un arma de fuego tipo pistola, la obliga abrir la tapa de la POS, logra 
+extraer el dinero producto de las ventas, sale de la tienda caminando y emprende la huida con 
+rumbo desconocido por la avenida Caracas sentido norte - surSe encontraba en la POS 
+3Nombre: Angie Tatiana Jimenez GomezC.C: 1.000.121.985 de BogotáDirección: CRA 5 este # 
+36B sur -49Barrio: La Vic toriaCel: 3247856370Afectaciones:Dinero:POS 3: $1'073.000Total: 
+$1'073.000Personal y cliente ilesosLlega cuadrante Berna al mando del Intendente Orlando 
+Sánchez Cel: 3017533464No llega Unidad Investigativa"
+14,Municipio Fiscal,"1 - BOGOTÁ, D.C."
+14,Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
+14,Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
+14,Despacho,31 - FISCALIA 31
+14,Estado de la asignación,VIGENTE
+14,Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
+14,Estado del caso,ACTIVO
+14,Etapa del caso,INDAGACIÓN
+14,Calidad_1,DENUNCIANTE
+14,Documento_1,CEDULA DE CIUDADANIA
+14,Número documento_1,1000121985
+14,Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
+14,Departamento de notificación_1,
+14,Municipio de notificación_1,
+14,Teléfono de notificación_1,
+14,Teléfono móvil_1,3124623005
+14,Correo Electrónico_1,jorge.morales@d1.com.co
+14,Teléfono Oficina_1,
+14,Calidad_2,VICTIMA
+14,Documento_2,CEDULA DE CIUDADANIA
+14,Número documento_2,1000121985
+14,Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
+14,Departamento de notificación_2,
+14,Municipio de notificación_2,
+14,Teléfono de notificación_2,
+14,Teléfono móvil_2,3124623005
+14,Correo Electrónico_2,jorge.morales@d1.com.co
+14,Teléfono Oficina_2,
+14,Calidad_3,
+14,Documento_3,
+14,Número documento_3,
+14,Nombre_3,
+14,Departamento de notificación_3,
+14,Municipio de notificación_3,
+14,Teléfono de notificación_3,
+14,Teléfono móvil_3,
+14,Correo Electrónico_3,
+14,Teléfono Oficina_3,
+14,Calidad_4,
+14,Documento_4,
+14,Número documento_4,
+14,Nombre_4,
+14,Departamento de notificación_4,
+14,Municipio de notificación_4,
+14,Teléfono de notificación_4,
+14,Teléfono móvil_4,
+14,Correo Electrónico_4,
+14,Teléfono Oficina_4,
+14,Calidad_5,
+14,Documento_5,
+14,Número documento_5,
+14,Nombre_5,
+14,Departamento de notificación_5,
+14,Municipio de notificación_5,
+14,Teléfono de notificación_5,
+14,Teléfono móvil_5,
+14,Correo Electrónico_5,
+14,Teléfono Oficina_5,
+15,Caso Noticia,110016000050202448385
+15,Ley de Aplicabilidad,Ley 906
+15,Procedimiento Abreviado?,SI
+15,Priorizado,NO
+15,Tipo Noticia,DENUNCIA
+15,Delito,HURTO. ART. 239 C.P.
+15,Grado Delito,NINGUNO
+15,Caracterización,HURTO A ESTABLECIMIENTOS
+15,Modalidad,ATRACO
+15,Modo,ARMA DE FUEGO
+15,Fecha de los Hechos,07/06/2024 00:36:00
+15,Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
+15,Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
+FormalizaciónAtraco a mano armadaTienda D1: Ciudad BernaCódigo: 6A080227Dirección: CRA 
+14 # 6 sur -34Localidad: Antonio NariñoFecha: 06 -06-2024Hora: 19:36 ¿ 19:37Quien reporta: 
+Supervis ora punto de ventaNombre: Allison Carvajal Estrada CC: 1.013.676.828 de BogotáN° 
+Cel: 3142421604Dirección residencia: CRA 12 A # 2 -34 surBarrio: Sevilla Descripción del sujeto: 
+1.70 Mts aproximadamente de estatura tez blanca, Vestía Jean de color azul, cha queta 
+impermeable de color azul oscuro, tenis de color gris, gorra azul oscuro con logo de YANKIES 
+(portaba arma de fuego tipo pistola). Delincuente plenamente identificado como: Diego Fernando 
+Rativa CC: 1.001.047.057.Hechos:Ingresa el sujeto anteriorment e descrito al piso de ventas, se 
+dirige directamente a la POS 3 aprovechando que la Asistente le va a entregar vueltas a una 
+cliente, la intimida con un arma de fuego tipo pistola, la obliga abrir la tapa de la POS, logra 
+extraer el dinero producto de las ventas, sale de la tienda caminando y emprende la huida con 
+rumbo desconocido por la avenida Caracas sentido norte - surSe encontraba en la POS 
+3Nombre: Angie Tatiana Jimenez GomezC.C: 1.000.121.985 de BogotáDirección: CRA 5 este # 
+36B sur -49Barrio: La Vic toriaCel: 3247856370Afectaciones:Dinero:POS 3: $1'073.000Total: 
+$1'073.000Personal y cliente ilesosLlega cuadrante Berna al mando del Intendente Orlando 
+Sánchez Cel: 3017533464No llega Unidad Investigativa"
+15,Municipio Fiscal,"1 - BOGOTÁ, D.C."
+15,Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
+15,Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
+15,Despacho,31 - FISCALIA 31
+15,Estado de la asignación,VIGENTE
+15,Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
+15,Estado del caso,ACTIVO
+15,Etapa del caso,INDAGACIÓN
+15,Calidad_1,DENUNCIANTE
+15,Documento_1,CEDULA DE CIUDADANIA
+15,Número documento_1,1000121985
+15,Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
+15,Departamento de notificación_1,
+15,Municipio de notificación_1,
+15,Teléfono de notificación_1,
+15,Teléfono móvil_1,3124623005
+15,Correo Electrónico_1,jorge.morales@d1.com.co
+15,Teléfono Oficina_1,
+15,Calidad_2,VICTIMA
+15,Documento_2,CEDULA DE CIUDADANIA
+15,Número documento_2,1000121985
+15,Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
+15,Departamento de notificación_2,
+15,Municipio de notificación_2,
+15,Teléfono de notificación_2,
+15,Teléfono móvil_2,3124623005
+15,Correo Electrónico_2,jorge.morales@d1.com.co
+15,Teléfono Oficina_2,
+15,Calidad_3,
+15,Documento_3,
+15,Número documento_3,
+15,Nombre_3,
+15,Departamento de notificación_3,
+15,Municipio de notificación_3,
+15,Teléfono de notificación_3,
+15,Teléfono móvil_3,
+15,Correo Electrónico_3,
+15,Teléfono Oficina_3,
+15,Calidad_4,
+15,Documento_4,
+15,Número documento_4,
+15,Nombre_4,
+15,Departamento de notificación_4,
+15,Municipio de notificación_4,
+15,Teléfono de notificación_4,
+15,Teléfono móvil_4,
+15,Correo Electrónico_4,
+15,Teléfono Oficina_4,
+15,Calidad_5,
+15,Documento_5,
+15,Número documento_5,
+15,Nombre_5,
+15,Departamento de notificación_5,
+15,Municipio de notificación_5,
+15,Teléfono de notificación_5,
+15,Teléfono móvil_5,
+15,Correo Electrónico_5,
+15,Teléfono Oficina_5,
+16,Caso Noticia,110016000050202448385
+16,Ley de Aplicabilidad,Ley 906
+16,Procedimiento Abreviado?,SI
+16,Priorizado,NO
+16,Tipo Noticia,DENUNCIA
+16,Delito,HURTO. ART. 239 C.P.
+16,Grado Delito,NINGUNO
+16,Caracterización,HURTO A ESTABLECIMIENTOS
+16,Modalidad,ATRACO
+16,Modo,ARMA DE FUEGO
+16,Fecha de los Hechos,07/06/2024 00:36:00
+16,Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
+16,Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
+FormalizaciónAtraco a mano armadaTienda D1: Ciudad BernaCódigo: 6A080227Dirección: CRA 
+14 # 6 sur -34Localidad: Antonio NariñoFecha: 06 -06-2024Hora: 19:36 ¿ 19:37Quien reporta: 
+Supervis ora punto de ventaNombre: Allison Carvajal Estrada CC: 1.013.676.828 de BogotáN° 
+Cel: 3142421604Dirección residencia: CRA 12 A # 2 -34 surBarrio: Sevilla Descripción del sujeto: 
+1.70 Mts aproximadamente de estatura tez blanca, Vestía Jean de color azul, cha queta 
+impermeable de color azul oscuro, tenis de color gris, gorra azul oscuro con logo de YANKIES 
+(portaba arma de fuego tipo pistola). Delincuente plenamente identificado como: Diego Fernando 
+Rativa CC: 1.001.047.057.Hechos:Ingresa el sujeto anteriorment e descrito al piso de ventas, se 
+dirige directamente a la POS 3 aprovechando que la Asistente le va a entregar vueltas a una 
+cliente, la intimida con un arma de fuego tipo pistola, la obliga abrir la tapa de la POS, logra 
+extraer el dinero producto de las ventas, sale de la tienda caminando y emprende la huida con 
+rumbo desconocido por la avenida Caracas sentido norte - surSe encontraba en la POS 
+3Nombre: Angie Tatiana Jimenez GomezC.C: 1.000.121.985 de BogotáDirección: CRA 5 este # 
+36B sur -49Barrio: La Vic toriaCel: 3247856370Afectaciones:Dinero:POS 3: $1'073.000Total: 
+$1'073.000Personal y cliente ilesosLlega cuadrante Berna al mando del Intendente Orlando 
+Sánchez Cel: 3017533464No llega Unidad Investigativa"
+16,Municipio Fiscal,"1 - BOGOTÁ, D.C."
+16,Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
+16,Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
+16,Despacho,31 - FISCALIA 31
+16,Estado de la asignación,VIGENTE
+16,Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
+16,Estado del caso,ACTIVO
+16,Etapa del caso,INDAGACIÓN
+16,Calidad_1,DENUNCIANTE
+16,Documento_1,CEDULA DE CIUDADANIA
+16,Número documento_1,1000121985
+16,Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
+16,Departamento de notificación_1,
+16,Municipio de notificación_1,
+16,Teléfono de notificación_1,
+16,Teléfono móvil_1,3124623005
+16,Correo Electrónico_1,jorge.morales@d1.com.co
+16,Teléfono Oficina_1,
+16,Calidad_2,VICTIMA
+16,Documento_2,CEDULA DE CIUDADANIA
+16,Número documento_2,1000121985
+16,Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
+16,Departamento de notificación_2,
+16,Municipio de notificación_2,
+16,Teléfono de notificación_2,
+16,Teléfono móvil_2,3124623005
+16,Correo Electrónico_2,jorge.morales@d1.com.co
+16,Teléfono Oficina_2,
+16,Calidad_3,
+16,Documento_3,
+16,Número documento_3,
+16,Nombre_3,
+16,Departamento de notificación_3,
+16,Municipio de notificación_3,
+16,Teléfono de notificación_3,
+16,Teléfono móvil_3,
+16,Correo Electrónico_3,
+16,Teléfono Oficina_3,
+16,Calidad_4,
+16,Documento_4,
+16,Número documento_4,
+16,Nombre_4,
+16,Departamento de notificación_4,
+16,Municipio de notificación_4,
+16,Teléfono de notificación_4,
+16,Teléfono móvil_4,
+16,Correo Electrónico_4,
+16,Teléfono Oficina_4,
+16,Calidad_5,
+16,Documento_5,
+16,Número documento_5,
+16,Nombre_5,
+16,Departamento de notificación_5,
+16,Municipio de notificación_5,
+16,Teléfono de notificación_5,
+16,Teléfono móvil_5,
+16,Correo Electrónico_5,
+16,Teléfono Oficina_5,
+17,Caso Noticia,110016000050202448385
+17,Ley de Aplicabilidad,Ley 906
+17,Procedimiento Abreviado?,SI
+17,Priorizado,NO
+17,Tipo Noticia,DENUNCIA
+17,Delito,HURTO. ART. 239 C.P.
+17,Grado Delito,NINGUNO
+17,Caracterización,HURTO A ESTABLECIMIENTOS
+17,Modalidad,ATRACO
+17,Modo,ARMA DE FUEGO
+17,Fecha de los Hechos,07/06/2024 00:36:00
+17,Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
+17,Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
+FormalizaciónAtraco a mano armadaTienda D1: Ciudad BernaCódigo: 6A080227Dirección: CRA 
+14 # 6 sur -34Localidad: Antonio NariñoFecha: 06 -06-2024Hora: 19:36 ¿ 19:37Quien reporta: 
+Supervis ora punto de ventaNombre: Allison Carvajal Estrada CC: 1.013.676.828 de BogotáN° 
+Cel: 3142421604Dirección residencia: CRA 12 A # 2 -34 surBarrio: Sevilla Descripción del sujeto: 
+1.70 Mts aproximadamente de estatura tez blanca, Vestía Jean de color azul, cha queta 
+impermeable de color azul oscuro, tenis de color gris, gorra azul oscuro con logo de YANKIES 
+(portaba arma de fuego tipo pistola). Delincuente plenamente identificado como: Diego Fernando 
+Rativa CC: 1.001.047.057.Hechos:Ingresa el sujeto anteriorment e descrito al piso de ventas, se 
+dirige directamente a la POS 3 aprovechando que la Asistente le va a entregar vueltas a una 
+cliente, la intimida con un arma de fuego tipo pistola, la obliga abrir la tapa de la POS, logra 
+extraer el dinero producto de las ventas, sale de la tienda caminando y emprende la huida con 
+rumbo desconocido por la avenida Caracas sentido norte - surSe encontraba en la POS 
+3Nombre: Angie Tatiana Jimenez GomezC.C: 1.000.121.985 de BogotáDirección: CRA 5 este # 
+36B sur -49Barrio: La Vic toriaCel: 3247856370Afectaciones:Dinero:POS 3: $1'073.000Total: 
+$1'073.000Personal y cliente ilesosLlega cuadrante Berna al mando del Intendente Orlando 
+Sánchez Cel: 3017533464No llega Unidad Investigativa"
+17,Municipio Fiscal,"1 - BOGOTÁ, D.C."
+17,Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
+17,Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
+17,Despacho,31 - FISCALIA 31
+17,Estado de la asignación,VIGENTE
+17,Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
+17,Estado del caso,ACTIVO
+17,Etapa del caso,INDAGACIÓN
+17,Calidad_1,DENUNCIANTE
+17,Documento_1,CEDULA DE CIUDADANIA
+17,Número documento_1,1000121985
+17,Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
+17,Departamento de notificación_1,
+17,Municipio de notificación_1,
+17,Teléfono de notificación_1,
+17,Teléfono móvil_1,3124623005
+17,Correo Electrónico_1,jorge.morales@d1.com.co
+17,Teléfono Oficina_1,
+17,Calidad_2,VICTIMA
+17,Documento_2,CEDULA DE CIUDADANIA
+17,Número documento_2,1000121985
+17,Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
+17,Departamento de notificación_2,
+17,Municipio de notificación_2,
+17,Teléfono de notificación_2,
+17,Teléfono móvil_2,3124623005
+17,Correo Electrónico_2,jorge.morales@d1.com.co
+17,Teléfono Oficina_2,
+17,Calidad_3,
+17,Documento_3,
+17,Número documento_3,
+17,Nombre_3,
+17,Departamento de notificación_3,
+17,Municipio de notificación_3,
+17,Teléfono de notificación_3,
+17,Teléfono móvil_3,
+17,Correo Electrónico_3,
+17,Teléfono Oficina_3,
+17,Calidad_4,
+17,Documento_4,
+17,Número documento_4,
+17,Nombre_4,
+17,Departamento de notificación_4,
+17,Municipio de notificación_4,
+17,Teléfono de notificación_4,
+17,Teléfono móvil_4,
+17,Correo Electrónico_4,
+17,Teléfono Oficina_4,
+17,Calidad_5,
+17,Documento_5,
+17,Número documento_5,
+17,Nombre_5,
+17,Departamento de notificación_5,
+17,Municipio de notificación_5,
+17,Teléfono de notificación_5,
+17,Teléfono móvil_5,
+17,Correo Electrónico_5,
+17,Teléfono Oficina_5,
+18,Caso Noticia,110016000050202448385
+18,Ley de Aplicabilidad,Ley 906
+18,Procedimiento Abreviado?,SI
+18,Priorizado,NO
+18,Tipo Noticia,DENUNCIA
+18,Delito,HURTO. ART. 239 C.P.
+18,Grado Delito,NINGUNO
+18,Caracterización,HURTO A ESTABLECIMIENTOS
+18,Modalidad,ATRACO
+18,Modo,ARMA DE FUEGO
+18,Fecha de los Hechos,07/06/2024 00:36:00
+18,Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
+18,Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
+FormalizaciónAtraco a mano armadaTienda D1: Ciudad BernaCódigo: 6A080227Dirección: CRA 
+14 # 6 sur -34Localidad: Antonio NariñoFecha: 06 -06-2024Hora: 19:36 ¿ 19:37Quien reporta: 
+Supervis ora punto de ventaNombre: Allison Carvajal Estrada CC: 1.013.676.828 de BogotáN° 
+Cel: 3142421604Dirección residencia: CRA 12 A # 2 -34 surBarrio: Sevilla Descripción del sujeto: 
+1.70 Mts aproximadamente de estatura tez blanca, Vestía Jean de color azul, cha queta 
+impermeable de color azul oscuro, tenis de color gris, gorra azul oscuro con logo de YANKIES 
+(portaba arma de fuego tipo pistola). Delincuente plenamente identificado como: Diego Fernando 
+Rativa CC: 1.001.047.057.Hechos:Ingresa el sujeto anteriorment e descrito al piso de ventas, se 
+dirige directamente a la POS 3 aprovechando que la Asistente le va a entregar vueltas a una 
+cliente, la intimida con un arma de fuego tipo pistola, la obliga abrir la tapa de la POS, logra 
+extraer el dinero producto de las ventas, sale de la tienda caminando y emprende la huida con 
+rumbo desconocido por la avenida Caracas sentido norte - surSe encontraba en la POS 
+3Nombre: Angie Tatiana Jimenez GomezC.C: 1.000.121.985 de BogotáDirección: CRA 5 este # 
+36B sur -49Barrio: La Vic toriaCel: 3247856370Afectaciones:Dinero:POS 3: $1'073.000Total: 
+$1'073.000Personal y cliente ilesosLlega cuadrante Berna al mando del Intendente Orlando 
+Sánchez Cel: 3017533464No llega Unidad Investigativa"
+18,Municipio Fiscal,"1 - BOGOTÁ, D.C."
+18,Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
+18,Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
+18,Despacho,31 - FISCALIA 31
+18,Estado de la asignación,VIGENTE
+18,Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
+18,Estado del caso,ACTIVO
+18,Etapa del caso,INDAGACIÓN
+18,Calidad_1,DENUNCIANTE
+18,Documento_1,CEDULA DE CIUDADANIA
+18,Número documento_1,1000121985
+18,Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
+18,Departamento de notificación_1,
+18,Municipio de notificación_1,
+18,Teléfono de notificación_1,
+18,Teléfono móvil_1,3124623005
+18,Correo Electrónico_1,jorge.morales@d1.com.co
+18,Teléfono Oficina_1,
+18,Calidad_2,VICTIMA
+18,Documento_2,CEDULA DE CIUDADANIA
+18,Número documento_2,1000121985
+18,Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
+18,Departamento de notificación_2,
+18,Municipio de notificación_2,
+18,Teléfono de notificación_2,
+18,Teléfono móvil_2,3124623005
+18,Correo Electrónico_2,jorge.morales@d1.com.co
+18,Teléfono Oficina_2,
+18,Calidad_3,
+18,Documento_3,
+18,Número documento_3,
+18,Nombre_3,
+18,Departamento de notificación_3,
+18,Municipio de notificación_3,
+18,Teléfono de notificación_3,
+18,Teléfono móvil_3,
+18,Correo Electrónico_3,
+18,Teléfono Oficina_3,
+18,Calidad_4,
+18,Documento_4,
+18,Número documento_4,
+18,Nombre_4,
+18,Departamento de notificación_4,
+18,Municipio de notificación_4,
+18,Teléfono de notificación_4,
+18,Teléfono móvil_4,
+18,Correo Electrónico_4,
+18,Teléfono Oficina_4,
+18,Calidad_5,
+18,Documento_5,
+18,Número documento_5,
+18,Nombre_5,
+18,Departamento de notificación_5,
+18,Municipio de notificación_5,
+18,Teléfono de notificación_5,
+18,Teléfono móvil_5,
+18,Correo Electrónico_5,
+18,Teléfono Oficina_5,
+19,Caso Noticia,110016000050202448385
+19,Ley de Aplicabilidad,Ley 906
+19,Procedimiento Abreviado?,SI
+19,Priorizado,NO
+19,Tipo Noticia,DENUNCIA
+19,Delito,HURTO. ART. 239 C.P.
+19,Grado Delito,NINGUNO
+19,Caracterización,HURTO A ESTABLECIMIENTOS
+19,Modalidad,ATRACO
+19,Modo,ARMA DE FUEGO
+19,Fecha de los Hechos,07/06/2024 00:36:00
+19,Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
+19,Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
+FormalizaciónAtraco a mano armadaTienda D1: Ciudad BernaCódigo: 6A080227Dirección: CRA 
+14 # 6 sur -34Localidad: Antonio NariñoFecha: 06 -06-2024Hora: 19:36 ¿ 19:37Quien reporta: 
+Supervis ora punto de ventaNombre: Allison Carvajal Estrada CC: 1.013.676.828 de BogotáN° 
+Cel: 3142421604Dirección residencia: CRA 12 A # 2 -34 surBarrio: Sevilla Descripción del sujeto: 
+1.70 Mts aproximadamente de estatura tez blanca, Vestía Jean de color azul, cha queta 
+impermeable de color azul oscuro, tenis de color gris, gorra azul oscuro con logo de YANKIES 
+(portaba arma de fuego tipo pistola). Delincuente plenamente identificado como: Diego Fernando 
+Rativa CC: 1.001.047.057.Hechos:Ingresa el sujeto anteriorment e descrito al piso de ventas, se 
+dirige directamente a la POS 3 aprovechando que la Asistente le va a entregar vueltas a una 
+cliente, la intimida con un arma de fuego tipo pistola, la obliga abrir la tapa de la POS, logra 
+extraer el dinero producto de las ventas, sale de la tienda caminando y emprende la huida con 
+rumbo desconocido por la avenida Caracas sentido norte - surSe encontraba en la POS 
+3Nombre: Angie Tatiana Jimenez GomezC.C: 1.000.121.985 de BogotáDirección: CRA 5 este # 
+36B sur -49Barrio: La Vic toriaCel: 3247856370Afectaciones:Dinero:POS 3: $1'073.000Total: 
+$1'073.000Personal y cliente ilesosLlega cuadrante Berna al mando del Intendente Orlando 
+Sánchez Cel: 3017533464No llega Unidad Investigativa"
+19,Municipio Fiscal,"1 - BOGOTÁ, D.C."
+19,Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
+19,Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
+19,Despacho,31 - FISCALIA 31
+19,Estado de la asignación,VIGENTE
+19,Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
+19,Estado del caso,ACTIVO
+19,Etapa del caso,INDAGACIÓN
+19,Calidad_1,DENUNCIANTE
+19,Documento_1,CEDULA DE CIUDADANIA
+19,Número documento_1,1000121985
+19,Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
+19,Departamento de notificación_1,
+19,Municipio de notificación_1,
+19,Teléfono de notificación_1,
+19,Teléfono móvil_1,3124623005
+19,Correo Electrónico_1,jorge.morales@d1.com.co
+19,Teléfono Oficina_1,
+19,Calidad_2,VICTIMA
+19,Documento_2,CEDULA DE CIUDADANIA
+19,Número documento_2,1000121985
+19,Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
+19,Departamento de notificación_2,
+19,Municipio de notificación_2,
+19,Teléfono de notificación_2,
+19,Teléfono móvil_2,3124623005
+19,Correo Electrónico_2,jorge.morales@d1.com.co
+19,Teléfono Oficina_2,
+19,Calidad_3,
+19,Documento_3,
+19,Número documento_3,
+19,Nombre_3,
+19,Departamento de notificación_3,
+19,Municipio de notificación_3,
+19,Teléfono de notificación_3,
+19,Teléfono móvil_3,
+19,Correo Electrónico_3,
+19,Teléfono Oficina_3,
+19,Calidad_4,
+19,Documento_4,
+19,Número documento_4,
+19,Nombre_4,
+19,Departamento de notificación_4,
+19,Municipio de notificación_4,
+19,Teléfono de notificación_4,
+19,Teléfono móvil_4,
+19,Correo Electrónico_4,
+19,Teléfono Oficina_4,
+19,Calidad_5,
+19,Documento_5,
+19,Número documento_5,
+19,Nombre_5,
+19,Departamento de notificación_5,
+19,Municipio de notificación_5,
+19,Teléfono de notificación_5,
+19,Teléfono móvil_5,
+19,Correo Electrónico_5,
+19,Teléfono Oficina_5,
+20,Caso Noticia,110016000050202448385
+20,Ley de Aplicabilidad,Ley 906
+20,Procedimiento Abreviado?,SI
+20,Priorizado,NO
+20,Tipo Noticia,DENUNCIA
+20,Delito,HURTO. ART. 239 C.P.
+20,Grado Delito,NINGUNO
+20,Caracterización,HURTO A ESTABLECIMIENTOS
+20,Modalidad,ATRACO
+20,Modo,ARMA DE FUEGO
+20,Fecha de los Hechos,07/06/2024 00:36:00
+20,Lugar de los hechos,11001 BARRIO/LOCALIDAD/COMUNA:CIUDAD BERNA/LOCALIDAD ANTONIO
+20,Relato de los hechos,"¿Qué viene a denunciar? HURTO CALIFICADO. ARTICULO 240. ¿Cómo le pasó? 
+FormalizaciónAtraco a mano armadaTienda D1: Ciudad BernaCódigo: 6A080227Dirección: CRA 
+14 # 6 sur -34Localidad: Antonio NariñoFecha: 06 -06-2024Hora: 19:36 ¿ 19:37Quien reporta: 
+Supervis ora punto de ventaNombre: Allison Carvajal Estrada CC: 1.013.676.828 de BogotáN° 
+Cel: 3142421604Dirección residencia: CRA 12 A # 2 -34 surBarrio: Sevilla Descripción del sujeto: 
+1.70 Mts aproximadamente de estatura tez blanca, Vestía Jean de color azul, cha queta 
+impermeable de color azul oscuro, tenis de color gris, gorra azul oscuro con logo de YANKIES 
+(portaba arma de fuego tipo pistola). Delincuente plenamente identificado como: Diego Fernando 
+Rativa CC: 1.001.047.057.Hechos:Ingresa el sujeto anteriorment e descrito al piso de ventas, se 
+dirige directamente a la POS 3 aprovechando que la Asistente le va a entregar vueltas a una 
+cliente, la intimida con un arma de fuego tipo pistola, la obliga abrir la tapa de la POS, logra 
+extraer el dinero producto de las ventas, sale de la tienda caminando y emprende la huida con 
+rumbo desconocido por la avenida Caracas sentido norte - surSe encontraba en la POS 
+3Nombre: Angie Tatiana Jimenez GomezC.C: 1.000.121.985 de BogotáDirección: CRA 5 este # 
+36B sur -49Barrio: La Vic toriaCel: 3247856370Afectaciones:Dinero:POS 3: $1'073.000Total: 
+$1'073.000Personal y cliente ilesosLlega cuadrante Berna al mando del Intendente Orlando 
+Sánchez Cel: 3017533464No llega Unidad Investigativa"
+20,Municipio Fiscal,"1 - BOGOTÁ, D.C."
+20,Seccional,100041 - DIRECCIÓN SECCIONAL DE BOGOTÁ
+20,Unidad de Fiscalía,1100141058 - UNIDAD HURTOS - ESTABLECIMIENTO COMERCIAL
+20,Despacho,31 - FISCALIA 31
+20,Estado de la asignación,VIGENTE
+20,Unidad de Enrutamiento,DIRECCIÓN SECCIONAL DE BOGOTÁ -UNIDAD HURTOS - ESTABLECIMIENTO
+20,Estado del caso,ACTIVO
+20,Etapa del caso,INDAGACIÓN
+20,Calidad_1,DENUNCIANTE
+20,Documento_1,CEDULA DE CIUDADANIA
+20,Número documento_1,1000121985
+20,Nombre_1,JIMENEZ GOMEZ ANGIE TATIANA
+20,Departamento de notificación_1,
+20,Municipio de notificación_1,
+20,Teléfono de notificación_1,
+20,Teléfono móvil_1,3124623005
+20,Correo Electrónico_1,jorge.morales@d1.com.co
+20,Teléfono Oficina_1,
+20,Calidad_2,VICTIMA
+20,Documento_2,CEDULA DE CIUDADANIA
+20,Número documento_2,1000121985
+20,Nombre_2,JIMENEZ GOMEZ ANGIE TATIANA
+20,Departamento de notificación_2,
+20,Municipio de notificación_2,
+20,Teléfono de notificación_2,
+20,Teléfono móvil_2,3124623005
+20,Correo Electrónico_2,jorge.morales@d1.com.co
+20,Teléfono Oficina_2,
+20,Calidad_3,
+20,Documento_3,
+20,Número documento_3,
+20,Nombre_3,
+20,Departamento de notificación_3,
+20,Municipio de notificación_3,
+20,Teléfono de notificación_3,
+20,Teléfono móvil_3,
+20,Correo Electrónico_3,
+20,Teléfono Oficina_3,
+20,Calidad_4,
+20,Documento_4,
+20,Número documento_4,
+20,Nombre_4,
+20,Departamento de notificación_4,
+20,Municipio de notificación_4,
+20,Teléfono de notificación_4,
+20,Teléfono móvil_4,
+20,Correo Electrónico_4,
+20,Teléfono Oficina_4,
+20,Calidad_5,
+20,Documento_5,
+20,Número documento_5,
+20,Nombre_5,
+20,Departamento de notificación_5,
+20,Municipio de notificación_5,
+20,Teléfono de notificación_5,
+20,Teléfono móvil_5,
+20,Correo Electrónico_5,
+20,Teléfono Oficina_5,
