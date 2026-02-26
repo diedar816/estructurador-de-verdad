@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 """
-Estructurador de Información (PDF -> Excel)
-- Multi-caso con control de encabezado tolerante a OCR y **exigencia de 21 dígitos**.
-- **SIN deduplicación** por defecto: cada aparición de "Caso Noticia:" se convierte en una fila
-  (útil para pruebas de carga con casos repetidos). Puede activarse la deduplicación con DEDUPE_BY_ID=True.
-- Reconstrucción robusta de Relato (ventana estricta) y poda de Lugar (evitar que absorba Relato).
-- Reindex por rol + reservas para INDICIADO(s) tras Relato.
-- Excel con auto-ancho, wrap en Relato, encabezado en negrita, congelado.
-- NaN-safe; fallback si el Excel está abierto; headers_debug.csv con aceptados/rechazados.
+Estructurador de Información (PDF -> Excel) – Hotfix
+- Corrige dos problemas reportados por Diego:
+  1) **Etapa del caso** quedaba contaminada con el texto **"Personas Vinculadas al Caso:"**.
+     -> Se agrega ese rótulo (y "Información del Caso:") como **stop-label** global al extraer campos de caso.
+  2) Campos **Teléfono de notificación / Teléfono móvil / Teléfono Oficina** se llenaban con el **número de documento** cuando debían ir **vacíos**.
+     -> Se elimina el fallback global de teléfono y se restringe a un **vecindario cercano** al rótulo del teléfono.
+     -> Regla de saneo: si el valor detectado **coincide** con **Documento** o **Número documento** de esa persona, se deja **vacío**.
+- Se mantienen: división multi-caso tolerante a OCR (21 dígitos), sin deduplicación por defecto, Relato por ventana estricta,
+  poda de Lugar, reservas INDICIADO tras Relato, aliases y Excel con formato.
 """
 
 import os, re, sys, time, traceback, unicodedata, datetime
@@ -15,18 +16,16 @@ from pathlib import Path
 import pandas as pd
 from PyPDF2 import PdfReader
 
-# =================== CONFIG ===================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PDF_NAME  = "Estructurador de Información.pdf"
 XLSX_NAME = "Estructurado en tabla.xlsx"
 
-# Cambia a True si quieres eliminar duplicados por ID (21 dígitos)
+# Cambia a True si quieres deduplicar por ID (21 dígitos)
 DEDUPE_BY_ID = False
 
 TESSERACT_EXE = r"C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 POPPLER_PATH  = None
 
-# =================== OCR (si hace falta) ===================
 OCR_OK = True
 try:
     import pytesseract
@@ -37,7 +36,6 @@ try:
 except Exception:
     OCR_OK = False
 
-# =================== ETIQUETAS ===================
 CASE_FIELDS = [
     "Caso Noticia","Ley de Aplicabilidad","Procedimiento Abreviado?","Priorizado",
     "Tipo Noticia","Delito","Grado Delito","Caracterización","Modalidad","Modo",
@@ -46,9 +44,10 @@ CASE_FIELDS = [
     "Estado de la asignación","Unidad de Enrutamiento","Estado del caso","Etapa del caso",
 ]
 
+# Se mantiene 'Dirección de notificación'
 PERSON_FIELDS = [
     "Calidad","Documento","Número documento","Nombre",
-    "Departamento de notificación","Municipio de notificación",
+    "Departamento de notificación","Municipio de notificación","Dirección de notificación",
     "Teléfono de notificación","Teléfono móvil","Correo Electrónico","Teléfono Oficina",
 ]
 
@@ -63,9 +62,13 @@ LABEL_ALIASES = {
     "Número documento":           [r"N[uú]mero\s+documento"],
     "Estado de la asignación":    [r"Estado de la\s+asignaci[oó]n"],
     "Unidad de Enrutamiento":     [r"Unidad de\s+Enrutamiento"],
+    "Teléfono móvil":             [r"Tel[eé]fono\s+m[oó]vil", r"Celular"],
+    "Teléfono de notificación":   [r"Tel[eé]fono\s+de\s+notificaci[oó]n"],
+    "Dirección de notificación":  [r"Direcci[oó]n\s+de\s+notificaci[oó]n"],
+    "Seccional":                  [r"Direcci[oó]n\s+Seccional"],
 }
 
-# =================== UTILIDADES ===================
+# ---------------- Utilidades ----------------
 
 def strip_accents(s: str) -> str:
     return "".join(c for c in unicodedata.normalize("NFD", s or "") if unicodedata.category(c) != "Mn")
@@ -76,12 +79,70 @@ def cleanspace(s: str) -> str:
     s = re.sub(r"[ \t\r\f\v]+"," ", s)
     return s.strip()
 
+# Une etiquetas partidas a su forma canónica "Etiqueta: "
+
 def normalize_labels_multiline(text: str) -> str:
     t = text
     for label, patterns in LABEL_ALIASES.items():
         for pat in patterns:
-            t = re.sub(rf"(?im){pat}\s*:\s*", f"{label}: ", t)
+            t = re.sub(rf"(?im){pat}\s*[:：]\s*", f"{label}: ", t)
     return t
+
+# Patrones de etiquetas (case + person) sin requerir inicio de línea
+
+def label_patterns(labels):
+    pats = []
+    for lb in labels:
+        candidates = [rf"{re.escape(lb)}"] + LABEL_ALIASES.get(lb, [])
+        for c in candidates:
+            pats.append(re.compile(rf"(?is)\b{c}\s*[:：]"))
+    return pats
+
+ALL_LABELS = CASE_FIELDS + PERSON_FIELDS
+ALL_LABEL_PATS = label_patterns(ALL_LABELS)
+
+# Stops adicionales detectados en las evidencias
+EXTRA_STOPS = ["Personas Vinculadas al Caso", "Información del Caso"]
+EXTRA_STOP_PATS = label_patterns(EXTRA_STOPS)
+
+# Busca el *inicio* del siguiente rótulo en un texto (no requiere inicio de línea)
+
+def find_next_label_pos(text: str) -> int:
+    next_pos = None
+    for rp in (ALL_LABEL_PATS + EXTRA_STOP_PATS):
+        m = rp.search(text)
+        if m:
+            p = m.start()
+            if next_pos is None or p < next_pos:
+                next_pos = p
+    return next_pos if next_pos is not None else -1
+
+# Extrae ventana entre start_label y el primer stop label (de lista + extras)
+
+def extract_between(text: str, start_label: str, stop_labels: list) -> str:
+    # localizar rótulo de inicio
+    starts = [re.search(rf"(?is)\b{pat}\s*[:：]", text) for pat in [re.escape(start_label)] + LABEL_ALIASES.get(start_label, [])]
+    starts = [m for m in starts if m]
+    if not starts:
+        return ""
+    s = min(starts, key=lambda m: m.start())
+    sub = text[s.end():]
+    # construir patrones de stop
+    stop_cands = []
+    for sl in (stop_labels + EXTRA_STOPS):
+        for pat in [re.escape(sl)] + LABEL_ALIASES.get(sl, []):
+            stop_cands.append(re.compile(rf"(?is)\b{pat}\s*[:：]"))
+    end_idx = len(sub)
+    for rp in stop_cands:
+        m2 = rp.search(sub)
+        if m2 and m2.start() < end_idx:
+            end_idx = m2.start()
+    return cleanspace(sub[:end_idx])
+
+EMAIL_RE = re.compile(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}", re.I)
+PHONE_RE = re.compile(r"(\+?\d[\d\s\-()]{6,}\d)")
+
+# ---------------- Lector PDF / OCR ----------------
 
 def read_pdf_text(pdf_path: str) -> str:
     reader = PdfReader(pdf_path)
@@ -108,43 +169,33 @@ def ocr_pdf(pdf_path: str, tmp_img_dir: str) -> str:
         except Exception: pass
     return "\n\n---- NUEVA PAGINA ----\n\n".join(all_text)
 
-# =================== EXTRACCIÓN CON VENTANA ===================
+# ---------------- Parseo de caso/personas ----------------
 
-ALL_LABELS = CASE_FIELDS + PERSON_FIELDS
 STOP_AFTER_RELATO = [
     "Municipio Fiscal","Seccional","Unidad de Fiscalía","Despacho",
     "Estado de la asignación","Unidad de Enrutamiento","Estado del caso","Etapa del caso",
     "Calidad","Caso Noticia"
 ]
 
-def find_any_label_position(text: str, label: str):
-    patterns = [rf"{re.escape(label)}"] + LABEL_ALIASES.get(label, [])
-    for p in patterns:
-        m = re.search(rf"(?im){p}\s*[:：]?", text)
-        if m: return m.span()
-    return None
+# Teléfonos: labels a tratar como teléfonos
+PHONE_LABELS = {"Teléfono de notificación","Teléfono móvil","Teléfono Oficina"}
 
-def extract_between(text: str, start_label: str, stop_labels: list) -> str:
-    s_span = find_any_label_position(text, start_label)
-    if not s_span: return ""
-    start = s_span[1]; end = len(text)
-    for sl in stop_labels:
-        for p in [rf"{re.escape(sl)}"] + LABEL_ALIASES.get(sl, []):
-            m = re.search(rf"(?im)^{p}\s*[:：]?", text[start:])
-            if m: end = min(end, start + m.start()); break
-    return cleanspace(text[start:end])
-
-# =================== PARSEO POR CASO ===================
 
 def parse_case_and_people(raw_text: str) -> dict:
     text = normalize_labels_multiline(raw_text.replace("\xa0"," ").replace("\u200b"," "))
 
+    # ----- Campos del caso -----
     caso = {k: "" for k in CASE_FIELDS}
     for k in CASE_FIELDS:
         v = extract_between(text, k, ALL_LABELS)
         if not v:
-            m = re.search(rf"(?im)^{re.escape(k)}\s*[:：]\s*(.+)$", text)
+            m = re.search(rf"(?im)\b{re.escape(k)}\s*[:：]\s*(.+)$", text)
             v = cleanspace(m.group(1)) if m else ""
+        # Saneos específicos
+        if k == "Etapa del caso":
+            # cortar si quedó embebido "Personas Vinculadas al Caso:" o "Información del Caso:"
+            for extra in EXTRA_STOPS:
+                v = re.split(rf"(?is)\b{re.escape(extra)}\s*[:：]", v)[0].strip()
         caso[k] = v
 
     # Poda Lugar
@@ -156,33 +207,87 @@ def parse_case_and_people(raw_text: str) -> dict:
             lugar_compacto = lugar_compacto[:220].rsplit(' ', 1)[0]
         caso["Lugar de los hechos"] = lugar_compacto
 
-    # Relato con ventana estricta
+    # Relato
     relato = extract_between(text, "Relato de los hechos", STOP_AFTER_RELATO)
     if not relato:
         m_q = re.search(r"(?s)¿.+$", text)
         if m_q:
             tail = m_q.group(0)
-            end = len(tail)
-            for sl in STOP_AFTER_RELATO:
-                for p in [rf"{re.escape(sl)}"] + LABEL_ALIASES.get(sl, []):
-                    m2 = re.search(rf"(?im)^{p}\s*[:：]?", tail)
-                    if m2: end = min(end, m2.start()); break
-            relato = cleanspace(tail[:end])
+            pos = find_next_label_pos(tail)
+            relato = tail[:pos] if pos != -1 else tail
+        relato = cleanspace(relato)
     caso["Relato de los hechos"] = relato
 
-    # Personas
+    # ----- Personas -----
     personas = []
     chunks = re.split(r"(?im)^\s*Calidad\s*[:：]", text)
     for ch in chunks[1:]:
         pdata = {lbl: "" for lbl in PERSON_FIELDS}
         first_line = ch.splitlines()[0] if ch.strip() else ""
         pdata["Calidad"] = cleanspace(first_line)
+
+        # Extraer en orden de PERSON_FIELDS (doc antes que teléfonos)
         for lbl in PERSON_FIELDS[1:]:
-            v = extract_between(ch, lbl, PERSON_FIELDS)
-            if not v:
-                m = re.search(rf"(?im)^{re.escape(lbl)}\s*[:：]\s*(.+)$", ch)
-                v = cleanspace(m.group(1)) if m else ""
-            pdata[lbl] = v
+            # Ventana estándar entre label y el siguiente label de personas
+            val = extract_between(ch, lbl, PERSON_FIELDS)
+            if not val:
+                # fallback por línea (solo en el mismo bloque)
+                m = re.search(rf"(?is)\b{re.escape(lbl)}\s*[:：]\s*(.+?)\s*$", ch)
+                val = cleanspace(m.group(1)) if m else ""
+
+            # Si todavía vacío y es un TELÉFONO: usar fallback **local**
+            if (not val) and (lbl in PHONE_LABELS):
+                # ubicar el rótulo dentro del bloque
+                label_regexes = [re.compile(rf"(?is)\b{re.escape(lbl)}\s*[:：]")]
+                for alias in LABEL_ALIASES.get(lbl, []):
+                    label_regexes.append(re.compile(rf"(?is)\b{alias}\s*[:：]"))
+                start = None
+                for rg in label_regexes:
+                    mpos = rg.search(ch)
+                    if mpos:
+                        start = mpos.end(); break
+                if start is not None:
+                    vicinity = ch[start:start+180]  # solo alrededor del rótulo
+                    mphone = PHONE_RE.search(vicinity)
+                    if mphone:
+                        val = cleanspace(mphone.group(1))
+
+            # Recorte si hay otras etiquetas pegadas
+            cut = find_next_label_pos(val)
+            if cut != -1:
+                val = val[:cut]
+            val = cleanspace(val)
+
+            # Saneos específicos por tipo
+            if lbl == "Correo Electrónico" and (not val or not EMAIL_RE.search(val)):
+                # Email: último intento, pero **no** global; usar ventana extra pequeña
+                label_regexes = [re.compile(rf"(?is)\b{re.escape(lbl)}\s*[:：]")]
+                for alias in LABEL_ALIASES.get(lbl, []):
+                    label_regexes.append(re.compile(rf"(?is)\b{alias}\s*[:：]"))
+                start = None
+                for rg in label_regexes:
+                    mpos = rg.search(ch)
+                    if mpos:
+                        start = mpos.end(); break
+                if start is not None:
+                    vicinity = ch[start:start+200]
+                    mmail = EMAIL_RE.search(vicinity)
+                    if mmail:
+                        val = mmail.group(0)
+
+            if lbl in PHONE_LABELS and val:
+                # Normalizar: quitar espacios y paréntesis sueltos
+                only_digits = re.sub(r"\D", "", val)
+                # Regla: si coincide con Documento o Número documento -> vacío
+                doc_vals = [
+                    re.sub(r"\D","", str(pdata.get("Documento",""))),
+                    re.sub(r"\D","", str(pdata.get("Número documento","")))
+                ]
+                if only_digits and only_digits in doc_vals:
+                    val = ""
+
+            pdata[lbl] = val
+
         if any(str(v).strip().lower() not in ("", "nan", "-") for v in pdata.values()):
             personas.append(pdata)
 
@@ -193,7 +298,7 @@ def parse_case_and_people(raw_text: str) -> dict:
             fila[f"{lbl}{suf}"] = p.get(lbl, "")
     return fila
 
-# =================== CORTE TOLERANTE A OCR ===================
+# ---------------- Corte tolerante a OCR (21 dígitos) ----------------
 CASE_HEADER_LOOSE = re.compile(r"(?i)caso\s+noticia\s*[:：]\s*([^\n\r]{0,80})")
 OCR_FIX_MAP = str.maketrans({'O':'0','o':'0','I':'1','l':'1','S':'5','B':'8'})
 
@@ -205,30 +310,27 @@ def sanitize_case_number(fragment: str) -> str:
 
 def find_valid_case_headers(full_text: str):
     text = normalize_labels_multiline(full_text)
-    accepted = []  # (start_index, id21)
-    rejected = []  # {pos, snippet, digits, len}
+    accepted = []
+    rejected = []
     for m in CASE_HEADER_LOOSE.finditer(text):
         tail = m.group(1)
         num = sanitize_case_number(tail)
         if len(num) == 21:
             accepted.append((m.start(), num))
         else:
-            snippet = (tail or '').strip()
-            rejected.append({"pos": m.start(), "snippet": snippet, "digits": num, "len": len(num)})
+            rejected.append({"pos": m.start(), "snippet": (tail or '').strip(), "digits": num, "len": len(num)})
     accepted.sort(key=lambda x: x[0])
     return text, accepted, rejected
 
 def split_cases(full_text: str) -> list:
     text, accepted, rejected = find_valid_case_headers(full_text)
-    # Depuración
     try:
         import csv
         with open(os.path.join(BASE_DIR, 'headers_debug.csv'), 'w', encoding='utf-8', newline='') as f:
             w = csv.writer(f); w.writerow(['tipo','pos','id_o_digits','len','snippet'])
             for pos, id21 in accepted: w.writerow(['OK', pos, id21, 21, ''])
             for r in rejected: w.writerow(['RECHAZADO', r['pos'], r['digits'], r['len'], r['snippet']])
-    except Exception:
-        pass
+    except Exception: pass
     if not accepted:
         return [text]
     starts = [pos for pos,_ in accepted]
@@ -244,7 +346,7 @@ def extract_case_id(block: str):
     num = sanitize_case_number(m.group(1))
     return num if len(num) == 21 else None
 
-# =================== REINDEX POR ROL + RESERVAS k_max ===================
+# ---------------- Reindex por rol + reservas k_max ----------------
 ROLE_PRIORITY_REST = ["DENUNCIANTE", "VICTIMA", "TESTIGO"]
 
 def normalize_role(val):
@@ -320,7 +422,8 @@ def reorder_and_expand(df: pd.DataFrame) -> pd.DataFrame:
         return [
             f"Calidad_{i}", f"Documento_{i}", f"Número documento_{i}", f"Nombre_{i}",
             f"Departamento de notificación_{i}", f"Municipio de notificación_{i}",
-            f"Teléfono de notificación_{i}", f"Teléfono móvil_{i}", f"Correo Electrónico_{i}", f"Teléfono Oficina_{i}"
+            f"Dirección de notificación_{i}", f"Teléfono de notificación_{i}",
+            f"Teléfono móvil_{i}", f"Correo Electrónico_{i}", f"Teléfono Oficina_{i}"
         ]
 
     base_cols = ["Fecha de los Hechos","Caso Noticia","Seccional","Unidad de Fiscalía","Despacho","Unidad de Enrutamiento","Delito"]
@@ -344,7 +447,7 @@ def reorder_and_expand(df: pd.DataFrame) -> pd.DataFrame:
     final_cols = desired + restantes
     return df2.reindex(columns=final_cols)
 
-# =================== EXCEL BLOQUEADO -> NOMBRE ALTERNO ===================
+# ---------------- Excel bloqueado -> nombre alterno ----------------
 
 def safe_excel_path(base_path: str) -> str:
     try:
@@ -357,7 +460,7 @@ def safe_excel_path(base_path: str) -> str:
         print(f"Archivo de salida bloqueado, guardando como: {alt}")
         return alt
 
-# =================== MAIN ===================
+# ---------------- MAIN ----------------
 
 def main():
     pdf_path  = os.path.join(BASE_DIR, PDF_NAME)
@@ -379,25 +482,20 @@ def main():
         with open(log_txt, "w", encoding="utf-8") as f: f.write(text_all)
     except Exception: pass
 
-    # Dividir (tolerante) y (opcionalmente) deduplicar
     case_chunks = split_cases(text_all)
-    ids_for_log = []
+
     if DEDUPE_BY_ID:
         seen = set(); chunks_use = []
         for ch in case_chunks:
             cid = extract_case_id(ch)
-            ids_for_log.append(cid or "<sin_id>")
             if not cid or cid in seen: continue
             seen.add(cid); chunks_use.append(ch)
     else:
         chunks_use = case_chunks
-        for ch in case_chunks:
-            ids_for_log.append(extract_case_id(ch) or "<sin_id>")
 
-    uniques = len(set(ids_for_log))
-    print(f"Casos detectados (apariciones/IDs únicos): {len(case_chunks)}/{uniques}. DEDUPE={'ON' if DEDUPE_BY_ID else 'OFF'}")
+    ids_for_log = [extract_case_id(ch) or "<sin_id>" for ch in case_chunks]
+    print(f"Casos detectados (apariciones/IDs únicos): {len(case_chunks)}/{len(set(ids_for_log))}. DEDUPE={'ON' if DEDUPE_BY_ID else 'OFF'}")
 
-    # Parsear
     filas = []
     debug_rows = []
     for idx, chunk in enumerate(chunks_use, start=1):
@@ -450,5 +548,5 @@ if __name__ == "__main__":
             print("\nSugerencia: instala Tesseract OCR y/o ajusta TESSERACT_EXE.")
         if "No module named" in str(e):
             print("\nSugerencia: instala dependencias con:")
-            print("python -m pip install PyPDF2 pandas openpyxl python-docx pytesseract pillow pdf2image")
+            print("python -m pip install PyPDF2 pandas openpyxl pytesseract pillow pdf2image")
         sys.exit(1)
