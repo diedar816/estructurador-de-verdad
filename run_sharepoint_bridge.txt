@@ -1,0 +1,139 @@
+@echo off
+setlocal ENABLEDELAYEDEXPANSION
+
+REM =========================
+REM 1) RUTAS DEL PROYECTO
+REM =========================
+set "PROY=C:\Proyecto TICs\Estructurador de verdad"
+set "PY=%PROY%\estructurador.py"
+set "IN_LOCAL=%PROY%\Estructurador de Información.pdf"
+set "OUT_LOCAL=%PROY%\Estructurado en tabla.xlsx"
+
+REM ======================================
+REM 2) BASE donde OneDrive dejó el sitio
+REM    (lo confirmaste en el Explorador)
+REM ======================================
+set "BASE=C:\Users\dieda\Fiscalia General de la Nacion"
+
+REM ======================================
+REM 3) Detectar la carpeta del sitio con
+REM    comodín (evita escribir la tilde)
+REM    Debe quedar algo como:
+REM    C:\Users\...\Estructurador de Información - Documentos
+REM ======================================
+set "SITE_DIR="
+for /d %%D in ("%BASE%\Estructurador de Informaci* - Documentos") do (
+    set "SITE_DIR=%%~fD"
+)
+
+if not defined SITE_DIR (
+    echo [ERROR] No encuentro la carpeta del sitio bajo:
+    echo         %BASE%\Estructurador de Informaci* - Documentos
+    echo Abra el sitio en SharePoint y pulse "Sincronizar". Luego reintente.
+    pause
+    exit /b 11
+)
+
+REM ======================================
+REM 4) Entradas/salidas del sitio
+REM ======================================
+set "IN_SP=%SITE_DIR%\EntradaPDF"
+set "OUT_SP=%SITE_DIR%\SalidaExcel"
+if not exist "%OUT_SP%" mkdir "%OUT_SP%"
+set "LOG=%OUT_SP%\procesamiento.log"
+
+echo ==================================================>>"%LOG%"
+echo === INICIO: %date% %time% =========================>>"%LOG%"
+echo [DEBUG] BASE    =%BASE%    >>"%LOG%"
+echo [DEBUG] SITE_DIR=%SITE_DIR%>>"%LOG%"
+echo [DEBUG] IN_SP   =%IN_SP%   >>"%LOG%"
+echo [DEBUG] OUT_SP  =%OUT_SP%  >>"%LOG%"
+
+REM ======================================
+REM 5) Usar RUTA CORTA (8.3) si existe,
+REM    para evitar líos con tildes/guiones
+REM ======================================
+set "IN_SP_S="
+for %%I in ("%IN_SP%") do set "IN_SP_S=%%~sI"
+if defined IN_SP_S (
+    pushd "%IN_SP_S%" 2>nul
+) else (
+    pushd "%IN_SP%" 2>nul
+)
+if errorlevel 1 (
+    echo [ERROR] Carpeta no accesible: "%IN_SP%" >>"%LOG%"
+    echo Carpeta no accesible.
+    echo Verifique en el Explorador que EntradaPDF tiene el icono ? (no nube).
+    exit /b 10
+)
+
+REM ======================================
+REM 6) Escoger el PDF a procesar
+REM    - Si existe el nombre fijo, usarlo
+REM    - Si no, tomar el primer *.pdf que haya
+REM ======================================
+set "PICKED="
+if exist "Estructurador de Información.pdf" (
+    set "PICKED=Estructurador de Información.pdf"
+) else (
+    for %%F in (*.pdf) do (
+        set "PICKED=%%~nxF"
+        goto :PICK_DONE
+    )
+)
+:PICK_DONE
+if not defined PICKED (
+    popd
+    echo [ERROR] No hay archivos PDF en "%IN_SP%" >>"%LOG%"
+    echo No hay PDF en EntradaPDF. Saliendo...
+    exit /b 1
+)
+
+copy /Y "%PICKED%" "%IN_LOCAL%" >nul
+echo [OK] PDF tomado: %PICKED% >>"%LOG%"
+popd
+
+REM ======================================
+REM 7) Ejecutar Python como siempre
+REM ======================================
+pushd "%PROY%"
+call "%PROY%\.venv\Scripts\activate.bat" 2>nul
+python "%PY%" -i "%IN_LOCAL%" -o "%OUT_LOCAL%"
+set "RC=%ERRORLEVEL%"
+popd
+
+if not "%RC%"=="0" (
+    echo [ERROR] Python fallo RC=%RC% >>"%LOG%"
+    echo Error ejecutando Python (RC=%RC%). Revisa el log.
+    exit /b %RC%
+)
+
+if not exist "%OUT_LOCAL%" (
+    echo [ERROR] No se generó salida: "%OUT_LOCAL%" >>"%LOG%"
+    echo No se encontró el XLSX de salida.
+    exit /b 2
+)
+
+REM ======================================
+REM 8) Timestamp SEGURO (sin usar %TIME%)
+REM    Formato: YYYYMMDD_HHMMSS
+REM ======================================
+for /f "skip=1 tokens=1 delims=." %%A in ('wmic os get localdatetime') do if not defined DTS set DTS=%%A
+set "TS=!DTS:~0,8!_!DTS:~8,6!"
+
+REM ======================================
+REM 9) Copiar salida (normal + timestamp)
+REM ======================================
+set "OUT_FILE=Estructurado en tabla.xlsx"
+set "OUT_TS=Estructurado_en_tabla_!TS!.xlsx"
+
+copy /Y "%OUT_LOCAL%" "%OUT_SP%\%OUT_FILE%" >nul
+copy /Y "%OUT_LOCAL%" "%OUT_SP%\%OUT_TS%" >nul
+
+echo [OK] Entregado: "%OUT_SP%\%OUT_FILE%" y "%OUT_SP%\%OUT_TS%" >>"%LOG%"
+echo === FIN: %date% %time% =============================>>"%LOG%"
+
+echo PROCESO COMPLETO. Archivo enviado a:
+echo %OUT_SP%
+pause
+endlocal
